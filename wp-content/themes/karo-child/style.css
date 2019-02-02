@@ -87,7 +87,7 @@ Mega-Menu CSS
 }
 
 .header-nav-menu .container {
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .sub-check {
@@ -222,4 +222,80 @@ label.sub-check {
   height: 3em;
   color: #dc7f98;
   padding-top: 1em;
+}
+
+/* Megamenu Flex */
+/* still need to get menu to stay when on that same product category page. */
+.header-layout10 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li:hover > ul.mega_dropdown {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  flex-wrap: nowrap;
+}
+
+
+
+/* Woocommerce Product Title for Thumbnails (shop) */
+.woocommerce .product .item-description h3.product_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.woocommerce .products .product .item-description h3.product-name a, .woocommerce-page .products .product .item-description h3.product-name a {
+  color: #5b565b;
+}
+
+#content > div.ftc-breadcrumb > div > h1 {
+  display: none;
+}
+
+/* Shop: Woocommerce Price Filter */
+#left-sidebar .widget-title, .widget-container ul.product-categories > li {
+  font-family: "Poppins", sans-serif;
+  color: #54565b;
+}
+
+.widget-container {
+  border: 1px solid #e06c9f;
+}
+
+.widget-container ul.product-categories > li.cat-parent.active >a {
+  color: #e06c9f;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount .button {
+  background: #04b9ba;
+  font-size: .7em;
+  color: #fff;
+}
+
+
+#ftc_products-6 > div.ftc-product-items-widget.owl-carousel.woocommerce > ul > li:nth-child(1) > div > h3 {
+  font-weight: 400;
+  color: #54565b;
+}
+
+#primary > div.woocommerce.columns-3 {
+  margin-left: 2em;
+}
+
+#woocommerce_price_filter-6 > form > div > div.price_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all > span:nth-child(3), #woocommerce_price_filter-6 > form > div > div.price_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all > span:nth-child(2) {
+  background-color: #e06c9f;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+  background-color: #bcbcbc;
+}
+
+
+
+/* Sidebar: Shop: Recent Products */
+
+.price_label span{
+  color: #e06c9f;
+}
+
+.woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
+  color: #04b9ba;
+  font-size: .9em;
 }
