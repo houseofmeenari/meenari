@@ -1,0 +1,2660 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Karo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-08 04:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:65
+msgid ", "
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:32
+msgid "0 star"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:33
+msgid "0.5 star"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:34
+msgid "1 star"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:35
+msgid "1.5 star"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:36
+msgid "2 stars"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:37
+msgid "2.5 stars"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:38
+msgid "3 stars"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:39
+msgid "3.5 stars"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:40
+msgid "4 stars"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:41
+msgid "4.5 stars"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:42
+msgid "5 stars"
+msgstr ""
+
+#: 404.php:18
+#, php-format
+msgid ""
+"<h1>404</h1><h2 class=\"page-title\">erroooor page!</h2>\n"
+"\t\t\t\t\t<p>Somethings not quite right here...</p>\n"
+"\t\t\t\t\t<a href=\"%s\">Back to homepage</a>"
+msgstr ""
+
+#. %s: post date
+#: inc/template-tags.php:51
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: admin/theme_options.php:125
+msgid "Accept ICO files"
+msgstr ""
+
+#: admin/theme_options.php:1130
+msgid "Accordion"
+msgstr ""
+
+#: footer.php:59
+msgid "Account"
+msgstr ""
+
+#: admin/theme_options.php:663
+msgid "Activate Lazy Load"
+msgstr ""
+
+#: admin/theme_options.php:688
+msgid "Activate Quickshop"
+msgstr ""
+
+#: admin/theme_options.php:223
+msgid "Add header sticky. Please disable sticky mega main menu"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:266
+msgid "Add image next to section title."
+msgstr ""
+
+#: inc/vc_extension/update_param.php:265
+msgid "Add image?"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:230
+msgid "Add Images"
+msgstr ""
+
+#: functions.php:249
+msgid "Add Sidebar"
+msgstr ""
+
+#: inc/register_sidebar.php:64
+msgid "Add social icon in your product detail page."
+msgstr ""
+
+#: inc/register_sidebar.php:81 inc/register_sidebar.php:88
+#: inc/register_sidebar.php:95
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: admin/theme_options.php:1174
+msgid "Ads Banner"
+msgstr ""
+
+#: admin/theme_options.php:1182
+msgid "Ads Banner Content"
+msgstr ""
+
+#: admin/theme_options.php:1141
+msgid "After Summary"
+msgstr ""
+
+#: admin/theme_options.php:709
+msgid "Ajax Search"
+msgstr ""
+
+#: functions.php:882
+msgid "All categories"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:156
+msgid "All Posts"
+msgstr ""
+
+#: inc/widgets/product_filter_by_color.php:183
+msgid "AND"
+msgstr ""
+
+#: admin/et-templates/header.tpl.php:32
+msgid "and"
+msgstr ""
+
+#: archive.php:31
+msgid "Archives"
+msgstr ""
+
+#: functions.php:1243
+msgid "Articles posted by "
+msgstr ""
+
+#: inc/widgets/blogs.php:311 inc/widgets/product_categories.php:162
+msgid "Ascending"
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:64
+msgid "Audio URL"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:191
+msgid "Auto Play"
+msgstr ""
+
+#: inc/widgets/blogs.php:389 inc/widgets/products.php:341
+#: inc/widgets/recent_comments.php:222
+msgid "Auto play"
+msgstr ""
+
+#: inc/woo/hooks.php:53
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:62
+msgid "Awaiting product image"
+msgstr ""
+
+#: admin/theme_options.php:636
+msgid "Back Product Image"
+msgstr ""
+
+#: footer.php:74
+msgid "Back to Top"
+msgstr ""
+
+#: admin/theme_options.php:332
+msgid "Back to top"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:97 inc/vc_extension/update_param.php:108
+#: inc/vc_extension/update_param.php:118 inc/vc_extension/update_param.php:128
+#: inc/vc_extension/update_param.php:138 inc/vc_extension/update_param.php:148
+#: inc/vc_extension/update_param.php:158 inc/vc_extension/update_param.php:169
+#: inc/vc_extension/update_param.php:180 inc/vc_extension/update_param.php:194
+msgid "Background"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:104
+msgid "Background Image"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:89
+msgid "Background Type"
+msgstr ""
+
+#: inc/woo/term.php:77 inc/woo/term.php:187
+msgid "Banner"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:35
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/products.php:258
+msgid "Best selling"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/my-address.php:34
+msgid "Billing Address"
+msgstr ""
+
+#: index.php:7 admin/theme_options.php:1221
+msgid "Blog"
+msgstr ""
+
+#: admin/theme_options.php:1277
+msgid "Blog Author"
+msgstr ""
+
+#: admin/theme_options.php:1423
+msgid "Blog Author Box"
+msgstr ""
+
+#: admin/theme_options.php:1309 admin/theme_options.php:1415
+msgid "Blog Categories"
+msgstr ""
+
+#: admin/theme_options.php:1285
+msgid "Blog Comment"
+msgstr ""
+
+#: admin/theme_options.php:1439
+msgid "Blog Comment Form"
+msgstr ""
+
+#: admin/theme_options.php:1391
+msgid "Blog Content"
+msgstr ""
+
+#: admin/theme_options.php:1293 admin/theme_options.php:1407
+msgid "Blog Count View"
+msgstr ""
+
+#: admin/theme_options.php:1261 admin/theme_options.php:1375
+msgid "Blog Date"
+msgstr ""
+
+#: admin/theme_options.php:1350
+msgid "Blog Detail Layout"
+msgstr ""
+
+#: inc/register_sidebar.php:24
+msgid "Blog Detail Sidebar"
+msgstr ""
+
+#: admin/theme_options.php:1345
+msgid "Blog Details"
+msgstr ""
+
+#: admin/theme_options.php:1317
+msgid "Blog Excerpt"
+msgstr ""
+
+#: admin/theme_options.php:1331
+msgid "Blog Excerpt Max Words"
+msgstr ""
+
+#: admin/theme_options.php:1325
+msgid "Blog Excerpt Strip All Tags"
+msgstr ""
+
+#: admin/theme_options.php:1231 admin/theme_options.php:1236
+msgid "Blog Layout"
+msgstr ""
+
+#: admin/theme_options.php:1301
+msgid "Blog Read More Button"
+msgstr ""
+
+#: admin/theme_options.php:1431
+msgid "Blog Related Posts"
+msgstr ""
+
+#: inc/register_sidebar.php:15
+msgid "Blog Sidebar"
+msgstr ""
+
+#: admin/theme_options.php:1399
+msgid "Blog Tags"
+msgstr ""
+
+#: admin/theme_options.php:1253 admin/theme_options.php:1367
+msgid "Blog Thumbnail"
+msgstr ""
+
+#: admin/theme_options.php:1269 admin/theme_options.php:1383
+msgid "Blog Title"
+msgstr ""
+
+#: admin/theme_options.php:436
+msgid "Body Background Color"
+msgstr ""
+
+#: admin/theme_options.php:453
+msgid "Body Font - Enable Google Font"
+msgstr ""
+
+#: admin/theme_options.php:462
+msgid "Body Font - Family Font"
+msgstr ""
+
+#: admin/theme_options.php:484 admin/theme_options.php:516
+msgid "Body Font - Google Font"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:279
+msgid "Body Font family"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:287
+msgid "Body Font Google"
+msgstr ""
+
+#: admin/theme_options.php:549
+msgid "Body Font Line Heigh"
+msgstr ""
+
+#: admin/theme_options.php:539
+msgid "Body Font Size"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:102
+msgid "Box Layout"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:32 inc/vc_extension/update_param.php:81
+msgid "Boxed"
+msgstr ""
+
+#: admin/theme_options.php:304
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:222
+#: inc/advanceoptions/post_options.php:50
+#: inc/advanceoptions/product_options.php:89
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:210
+msgid "Breadcrumb Background Parallax"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:197
+msgid "Breadcrumb Layout"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:202
+msgid "Breadcrumb Layout 1"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:203
+msgid "Breadcrumb Layout 2"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:204
+msgid "Breadcrumb Layout 3"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:82
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/theme_options.php:309 inc/woo/term.php:31 inc/woo/term.php:126
+msgid "Breadcrumbs Background Image"
+msgstr ""
+
+#. %s: post author
+#: inc/template-tags.php:21
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:13
+msgid "Byline"
+msgstr ""
+
+#: inc/widgets/instagram.php:135
+msgid "Cache time (hours)"
+msgstr ""
+
+#: footer.php:35
+msgid "Cart"
+msgstr ""
+
+#: admin/theme_options.php:259
+msgid "Cart Layout"
+msgstr ""
+
+#: inc/widgets/products.php:302
+msgid "Catalog Images"
+msgstr ""
+
+#: admin/theme_options.php:695
+msgid "Catalog Mode"
+msgstr ""
+
+#: admin/theme_options.php:781
+msgid "Catalog view"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Categories"
+msgstr ""
+
+#: single-portfolio.php:70
+msgid "Categories:"
+msgstr ""
+
+#: template-parts/post/content.php:109
+#: template-parts/post/single-content.php:99
+msgid "Categories: "
+msgstr ""
+
+#: inc/woo/hooks.php:496
+msgid "Category:"
+msgid_plural "karo"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:25
+msgid "Category: "
+msgstr ""
+
+#: admin/theme_options.php:289
+msgid "Check out"
+msgstr ""
+
+#: header-layout6.php:55
+msgid "Checkout"
+msgstr ""
+
+#: inc/filter_by_color_options.php:97 inc/filter_by_color_options.php:163
+msgid "Choose an image"
+msgstr ""
+
+#: admin/theme_options.php:390
+msgid ""
+"Choose page that will contain detailed information about your Privacy Policy"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:194
+msgid "Clear Image"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:126
+msgid "Clear selection"
+msgstr ""
+
+#: inc/woo/functions.php:134
+msgid "Close"
+msgstr ""
+
+#: functions.php:602
+msgid "Collapse child menu"
+msgstr ""
+
+#: inc/filter_by_color_options.php:60 inc/filter_by_color_options.php:129
+msgid "Color"
+msgstr ""
+
+#: admin/theme_options.php:416 inc/customizer.php:46
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/widgets/instagram.php:111
+msgid "Column"
+msgstr ""
+
+#: inc/widgets/blogs.php:303
+msgid "Comment count"
+msgstr ""
+
+#: comments.php:19
+msgid "Comments "
+msgstr ""
+
+#: comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#: dokan/store.php:46
+msgid "Contact Vendor"
+msgstr ""
+
+#. %s: Name of current post
+#: functions.php:536 template-parts/page/content-front-page-panels.php:43
+#: template-parts/page/content-front-page.php:46
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/woo/hooks.php:788
+msgid "Continue Shopping"
+msgstr ""
+
+#: admin/theme_options.php:370
+msgid "Cookie Notice"
+msgstr ""
+
+#: admin/theme_options.php:396
+msgid "Cookies version"
+msgstr ""
+
+#: inc/woo/functions.php:34
+msgid "Create New Account"
+msgstr ""
+
+#: inc/widgets/instagram.php:130
+msgid "Current window"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Custom"
+msgstr ""
+
+#: functions.php:248
+msgid "Custom Sidebar Name"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:50
+#: inc/advanceoptions/product_options.php:57
+msgid "Custom Tab"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:75
+msgid "Custom Tab Content"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:68
+msgid "Custom Tab Title"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Dark"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:91
+msgid "Dark Layout"
+msgstr ""
+
+#: inc/widgets/blogs.php:302
+msgid "Date"
+msgstr ""
+
+#: single-portfolio.php:60
+msgid "Date:"
+msgstr ""
+
+#: archive.php:10
+msgid "Day: "
+msgstr ""
+
+#: admin/theme_options.php:1129 inc/advanceoptions/page_options.php:10
+#: inc/advanceoptions/page_options.php:31
+#: inc/advanceoptions/page_options.php:125
+#: inc/advanceoptions/page_options.php:160
+#: inc/advanceoptions/page_options.php:201
+#: inc/advanceoptions/page_options.php:214
+#: inc/advanceoptions/page_options.php:270
+#: inc/advanceoptions/post_options.php:5 inc/advanceoptions/post_options.php:24
+#: inc/advanceoptions/product_options.php:5
+#: inc/advanceoptions/product_options.php:24
+#: inc/advanceoptions/product_options.php:61
+#: inc/vc_extension/update_param.php:92 inc/vc_extension/update_param.php:212
+#: inc/vc_extension/update_param.php:256 inc/woo/term.php:46
+#: inc/woo/term.php:57 inc/woo/term.php:67 inc/woo/term.php:151
+#: inc/woo/term.php:164 inc/woo/term.php:176
+msgid "Default"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:213 inc/vc_extension/update_param.php:257
+msgid "Default - No Border"
+msgstr ""
+
+#: admin/theme_options.php:790
+msgid "Default catalog view"
+msgstr ""
+
+#: inc/custom-header.php:49
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/widgets/blogs.php:312 inc/widgets/product_categories.php:163
+msgid "Descending"
+msgstr ""
+
+#: admin/et-templates/header.tpl.php:12
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: admin/theme_options.php:142 admin/theme_options.php:227
+#: admin/theme_options.php:237 admin/theme_options.php:294
+#: admin/theme_options.php:509
+msgid "Disable"
+msgstr ""
+
+#: inc/widgets/blogs.php:13
+msgid "Display blogs on site"
+msgstr ""
+
+#: inc/widgets/feedburner_subscription.php:13
+msgid "Display Feedburner Subscriptions Form"
+msgstr ""
+
+#: admin/theme_options.php:782
+msgid "Display option to show product in grid or list view"
+msgstr ""
+
+#: inc/widgets/blogs_tabs.php:13
+msgid "Display popular and recent blogs in tabs"
+msgstr ""
+
+#: admin/theme_options.php:802
+msgid "Display Product Category Top Content widget area"
+msgstr ""
+
+#: admin/theme_options.php:791
+msgid "Display products in grid or list view by default"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:13
+msgid "Display recent comments on site"
+msgstr ""
+
+#: admin/theme_options.php:990
+msgid ""
+"Display the product title in the page content instead of above the "
+"breadcrumbs"
+msgstr ""
+
+#: inc/widgets/instagram.php:13
+msgid "Display your photos from Instagram"
+msgstr ""
+
+#: inc/widgets/product_categories.php:13
+msgid "Display Your Product Categories"
+msgstr ""
+
+#: inc/widgets/products.php:13
+msgid "Display your products on site"
+msgstr ""
+
+#: inc/widgets/product_categories.php:147
+msgid "Don't select to show all"
+msgstr ""
+
+#: functions.php:1504
+msgid "Don't show popup again"
+msgstr ""
+
+#: admin/theme_options.php:261
+msgid "Dropdown"
+msgstr ""
+
+#: admin/theme_options.php:564
+msgid "Ecommerce"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:78
+msgid "Edit"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/template-tags.php:117
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/woo/hooks.php:456
+msgid "Email to a Friend"
+msgstr ""
+
+#: admin/theme_options.php:141 admin/theme_options.php:226
+#: admin/theme_options.php:236 admin/theme_options.php:293
+#: admin/theme_options.php:508
+msgid "Enable"
+msgstr ""
+
+#: admin/theme_options.php:716
+msgid "Enable Ajax Search"
+msgstr ""
+
+#: admin/theme_options.php:337
+msgid "Enable Back To Top Button"
+msgstr ""
+
+#: admin/theme_options.php:345
+msgid "Enable Back To Top Button On Mobile"
+msgstr ""
+
+#: admin/theme_options.php:318
+msgid "Enable Breadcrumb Background Image"
+msgstr ""
+
+#: admin/theme_options.php:702
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:266
+msgid "Enable Google Font"
+msgstr ""
+
+#: admin/theme_options.php:166
+msgid "Enable Popup Newletter"
+msgstr ""
+
+#: admin/theme_options.php:1116
+msgid "Enable Product Tabs"
+msgstr ""
+
+#: admin/theme_options.php:643
+msgid "Enable Second Product Image"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:14
+msgid ""
+"Enter a byline for the customer giving this testimonial (for example: \"CEO "
+"of ThemeFTC\")."
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:21
+msgid ""
+"Enter a URL that applies to this customer (for example: http://themeftc.com/)"
+"."
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:7
+msgid ""
+"Enter in an e-mail address, to use a Gravatar, instead of using the "
+"\"Featured Image\". You have to remove the \"Featured Image\"."
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:65
+msgid "Enter MP3, OGG, WAV file URL or SoundCloud URL"
+msgstr ""
+
+#: admin/theme_options.php:361
+msgid "Enter your API key"
+msgstr ""
+
+#: inc/widgets/feedburner_subscription.php:98
+msgid "Enter your button text"
+msgstr ""
+
+#: inc/widgets/feedburner_subscription.php:86
+msgid "Enter your Feedburner ID"
+msgstr ""
+
+#: inc/widgets/feedburner_subscription.php:94
+msgid "Enter your Intro Text Line 1"
+msgstr ""
+
+#: inc/widgets/blogs.php:287 inc/widgets/feedburner_subscription.php:90
+#: inc/widgets/instagram.php:99 inc/widgets/products.php:248
+#: inc/widgets/product_categories.php:115 inc/widgets/recent_comments.php:160
+msgid "Enter your title"
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:79
+#: inc/advanceoptions/product_options.php:104
+msgid "Enter Youtube or Vimeo video URL"
+msgstr ""
+
+#: functions.php:1241
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:601
+msgid "Expand child menu"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:186
+msgid "Extra Options"
+msgstr ""
+
+#: dokan/store-header.php:47
+msgid "Facebook"
+msgstr ""
+
+#: admin/theme_options.php:124
+msgid "Favicon Image"
+msgstr ""
+
+#: inc/widgets/products.php:257 template-parts/post/content.php:83
+msgid "Featured"
+msgstr ""
+
+#: inc/woo/hooks.php:291
+msgid "Filter"
+msgstr ""
+
+#: inc/register_sidebar.php:91 inc/advanceoptions/page_options.php:337
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:329
+msgid "Footer Center"
+msgstr ""
+
+#: inc/register_sidebar.php:84
+msgid "Footer Middle"
+msgstr ""
+
+#: inc/register_sidebar.php:77
+msgid "Footer Top"
+msgstr ""
+
+#: inc/woo/functions.php:60
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: wc-vendors/dashboard/date-picker.php:20
+msgid "From:"
+msgstr ""
+
+#: inc/template-tags.php:154
+#, php-format
+msgid "Front Page Section %1$s Placeholder"
+msgstr ""
+
+#. %d is the front page section number
+#: inc/customizer.php:107
+#, php-format
+msgid "Front Page Section %d Content"
+msgstr ""
+
+#: inc/widgets/blogs.php:14
+msgid "FTC - Blogs"
+msgstr ""
+
+#: inc/widgets/blogs_tabs.php:14
+msgid "FTC - Blogs Tabs"
+msgstr ""
+
+#: inc/widgets/feedburner_subscription.php:15
+msgid "FTC - Feedburner Subscription"
+msgstr ""
+
+#: inc/widgets/instagram.php:14
+msgid "FTC - Instagram"
+msgstr ""
+
+#: inc/widgets/product_categories.php:14
+msgid "FTC - Product Categories"
+msgstr ""
+
+#: inc/widgets/product_filter_by_color.php:13
+msgid "FTC - Product Filter By Color"
+msgstr ""
+
+#: inc/widgets/products.php:14
+msgid "FTC - Products"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:14
+msgid "FTC - Recent Comments"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:80
+msgid "Full Page"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:43
+#: inc/advanceoptions/post_options.php:25
+#: inc/advanceoptions/product_options.php:25 inc/woo/term.php:47
+#: inc/woo/term.php:152
+msgid "Fullwidth"
+msgstr ""
+
+#: admin/theme_options.php:96
+msgid "General"
+msgstr ""
+
+#: dokan/store-header.php:57
+msgid "Google +"
+msgstr ""
+
+#: admin/theme_options.php:356
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:6
+msgid "Gravatar Email Address"
+msgstr ""
+
+#: admin/theme_options.php:796
+msgid "Grid"
+msgstr ""
+
+#: inc/woo/hooks.php:803
+msgid "Grid view"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:114
+msgid "Header - Breadcrumb"
+msgstr ""
+
+#: admin/theme_options.php:210
+msgid "Header Content - Information"
+msgstr ""
+
+#: admin/theme_options.php:234
+msgid "Header Currency"
+msgstr ""
+
+#: admin/theme_options.php:242
+msgid "Header Language"
+msgstr ""
+
+#: admin/theme_options.php:193 inc/advanceoptions/page_options.php:121
+msgid "Header Layout"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:126
+msgid "Header Layout 1"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:135
+msgid "Header Layout 10"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:136
+msgid "Header Layout 11"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:137
+msgid "Header Layout 12"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:138
+msgid "Header Layout 13"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:127
+msgid "Header Layout 2"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:128
+msgid "Header Layout 3"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:129
+msgid "Header Layout 4"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:130
+msgid "Header Layout 5"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:131
+msgid "Header Layout 6"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:132
+msgid "Header Layout 7"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:133
+msgid "Header Layout 8"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:134
+msgid "Header Layout 9"
+msgstr ""
+
+#: admin/theme_options.php:204
+msgid "Header nav Information"
+msgstr ""
+
+#: admin/theme_options.php:187
+msgid "Header of inner Pages"
+msgstr ""
+
+#: admin/theme_options.php:217
+msgid "Header Social"
+msgstr ""
+
+#: admin/theme_options.php:222
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:156
+msgid "Header Text Color"
+msgstr ""
+
+#: admin/theme_options.php:786 admin/theme_options.php:806
+#: admin/theme_options.php:815 admin/theme_options.php:824
+#: admin/theme_options.php:833 admin/theme_options.php:842
+#: admin/theme_options.php:851 admin/theme_options.php:860
+#: admin/theme_options.php:869 admin/theme_options.php:878
+#: admin/theme_options.php:887 admin/theme_options.php:903
+#: admin/theme_options.php:962 admin/theme_options.php:970
+#: admin/theme_options.php:978 admin/theme_options.php:986
+#: admin/theme_options.php:1000 admin/theme_options.php:1008
+#: admin/theme_options.php:1016 admin/theme_options.php:1024
+#: admin/theme_options.php:1032 admin/theme_options.php:1040
+#: admin/theme_options.php:1048 admin/theme_options.php:1056
+#: admin/theme_options.php:1064 admin/theme_options.php:1072
+#: admin/theme_options.php:1080 admin/theme_options.php:1120
+#: admin/theme_options.php:1150 admin/theme_options.php:1179
+#: admin/theme_options.php:1200 admin/theme_options.php:1208
+#: admin/theme_options.php:1258 admin/theme_options.php:1266
+#: admin/theme_options.php:1274 admin/theme_options.php:1282
+#: admin/theme_options.php:1290 admin/theme_options.php:1298
+#: admin/theme_options.php:1306 admin/theme_options.php:1314
+#: admin/theme_options.php:1322 admin/theme_options.php:1372
+#: admin/theme_options.php:1380 admin/theme_options.php:1388
+#: admin/theme_options.php:1396 admin/theme_options.php:1404
+#: admin/theme_options.php:1412 admin/theme_options.php:1420
+#: admin/theme_options.php:1428 admin/theme_options.php:1436
+#: admin/theme_options.php:1444 inc/advanceoptions/product_options.php:121
+msgid "Hide"
+msgstr ""
+
+#: admin/theme_options.php:703
+msgid ""
+"Hide all Add To Cart buttons on your site. You can also hide Shopping cart "
+"by going to Header tab > turn Shopping Cart option off"
+msgstr ""
+
+#: inc/widgets/product_categories.php:128
+msgid "Hide empty categories"
+msgstr ""
+
+#: footer.php:29 functions.php:1237
+msgid "Home"
+msgstr ""
+
+#: inc/register_sidebar.php:6
+msgid "Home Sidebar"
+msgstr ""
+
+#: admin/theme_options.php:1106
+msgid "Horizontal"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:95
+msgid "Hosted Video"
+msgstr ""
+
+#: admin/theme_options.php:624
+msgid "Hover Style"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://demo.themeftc.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo.themeftc.com/woo_karo/store/"
+msgstr ""
+
+#: inc/woo/term.php:90 inc/woo/term.php:209
+msgid "Icon"
+msgstr ""
+
+#: inc/widgets/blogs.php:300
+msgid "ID"
+msgstr ""
+
+#: admin/et-templates/header.tpl.php:37
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: admin/theme_options.php:397
+msgid ""
+"If you change your cookie policy information you can increase their version "
+"to show the popup to all visitors again."
+msgstr ""
+
+#: admin/theme_options.php:243
+msgid "If you don't install WPML plugin, it will display demo html"
+msgstr ""
+
+#: admin/theme_options.php:946
+msgid ""
+"If you turn it off, product gallery images will open in a lightbox. This "
+"option overrides the option of WooCommerce"
+msgstr ""
+
+#: admin/theme_options.php:952
+msgid ""
+"If you turn it off, the dropdown will be replaced by image or text label"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:274
+msgid "Image"
+msgstr ""
+
+#: admin/theme_options.php:540
+msgid "In pixels. Default is 14px"
+msgstr ""
+
+#: admin/theme_options.php:550
+msgid "In pixels. Default is 24px"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:168 inc/vc_extension/update_param.php:179
+msgid "In seconds"
+msgstr ""
+
+#: inc/woo/hooks.php:516
+msgid "In Stock"
+msgstr ""
+
+#: admin/theme_options.php:724
+msgid "Input -1 to show all results"
+msgstr ""
+
+#: admin/theme_options.php:1332
+msgid "Input -1 to show full excerpt"
+msgstr ""
+
+#: admin/theme_options.php:1142
+msgid "Inside Summary"
+msgstr ""
+
+#: inc/widgets/instagram.php:161
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: inc/widgets/instagram.php:214
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: inc/widgets/instagram.php:167 inc/widgets/instagram.php:174
+#: inc/widgets/instagram.php:177
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: inc/widgets/instagram.php:186
+msgid "Instagram Image"
+msgstr ""
+
+#. Name of the theme
+msgid "Karo"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Karo brings your site to life with header video and immersive featured "
+"images. With a focus on business sites, it features multiple sections on the "
+"front page as well as widgets, navigation and social menus, a logo, and more."
+" Personalize its asymmetrical grid with a custom color scheme and showcase "
+"your multimedia content with post formats. Our default theme for 2017 works "
+"great in many languages, for any abilities, and on any device."
+msgstr ""
+
+#: inc/back-compat.php:39 inc/back-compat.php:51 inc/back-compat.php:66
+#, php-format
+msgid ""
+"Karo requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/widgets/instagram.php:123
+msgid "Large"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:77 inc/woo/term.php:44
+#: inc/woo/term.php:148
+msgid "Layout"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:27
+msgid "Layout Style"
+msgstr ""
+
+#: admin/theme_options.php:656
+msgid "Lazy Load"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:46
+#: inc/advanceoptions/post_options.php:28
+#: inc/advanceoptions/product_options.php:28 inc/woo/term.php:50
+#: inc/woo/term.php:155
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:68
+msgid "Left Right Padding"
+msgstr ""
+
+#: admin/theme_options.php:748 admin/theme_options.php:931
+#: admin/theme_options.php:1241 admin/theme_options.php:1355
+#: inc/advanceoptions/page_options.php:44
+#: inc/advanceoptions/page_options.php:52
+#: inc/advanceoptions/post_options.php:26
+#: inc/advanceoptions/post_options.php:34
+#: inc/advanceoptions/product_options.php:26
+#: inc/advanceoptions/product_options.php:34 inc/woo/term.php:48
+#: inc/woo/term.php:55 inc/woo/term.php:153 inc/woo/term.php:161
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:48 inc/advanceoptions/page_options.php:161
+msgid "Light"
+msgstr ""
+
+#: dokan/store-header.php:60
+msgid "Linkedin"
+msgstr ""
+
+#: admin/theme_options.php:797
+msgid "List"
+msgstr ""
+
+#: inc/woo/hooks.php:803
+msgid "List view"
+msgstr ""
+
+#: footer.php:56 footer.php:62 inc/woo/functions.php:32
+#: inc/woo/functions.php:32 inc/woo/functions.php:54
+msgid "Login"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:229
+msgid "Logo"
+msgstr ""
+
+#: admin/theme_options.php:106
+msgid "Logo - Favicon"
+msgstr ""
+
+#: admin/theme_options.php:113
+msgid "Logo Image"
+msgstr ""
+
+#: admin/theme_options.php:149
+msgid "Logo Mobile Image"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:42
+msgid "Logo Options"
+msgstr ""
+
+#: inc/advanceoptions/logo_options.php:6
+msgid "Logo URL"
+msgstr ""
+
+#: inc/woo/functions.php:37
+msgid "Logout"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:189
+msgid "Loop"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:25
+msgid "Member Information"
+msgstr ""
+
+#: functions.php:63 template-parts/navigation/navigation-primary.php:16
+msgid "Menu"
+msgstr ""
+
+#: inc/widgets/products.php:260
+msgid "Mixed order"
+msgstr ""
+
+#: admin/theme_options.php:139
+msgid "Mobile Layout"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:236
+msgid "Mobile Logo"
+msgstr ""
+
+#: archive.php:13
+msgid "Month: "
+msgstr ""
+
+#: archive.php:13
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Libre Franklin, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:483
+msgctxt "Montserrat, Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:134
+msgid "MP4 Video URL"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:190
+msgid "Muted"
+msgstr ""
+
+#: admin/theme_options.php:276 inc/woo/functions.php:36
+#: inc/woo/functions.php:36
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:32
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+msgid "My Addresses"
+msgstr ""
+
+#: inc/woo/hooks.php:508
+msgid "N/A"
+msgstr ""
+
+#: inc/widgets/product_categories.php:152
+msgid "Name"
+msgstr ""
+
+#: inc/widgets/instagram.php:131
+msgid "New window"
+msgstr ""
+
+#: inc/advanceoptions/logo_options.php:18
+msgid "New Window Tab"
+msgstr ""
+
+#: index.php:51 single.php:33
+msgid "Next"
+msgstr ""
+
+#: archive.php:79 search.php:34
+msgid "Next page"
+msgstr ""
+
+#: single.php:33
+msgid "Next Post"
+msgstr ""
+
+#: single-portfolio.php:102
+msgid "Next Project"
+msgstr ""
+
+#: inc/vc_extension/templates/vc_tabs.php:53
+msgid "Next tab"
+msgstr ""
+
+#: admin/theme_options.php:169 admin/theme_options.php:245
+#: admin/theme_options.php:253 admin/theme_options.php:270
+#: admin/theme_options.php:278 admin/theme_options.php:286
+#: admin/theme_options.php:321 admin/theme_options.php:340
+#: admin/theme_options.php:348 admin/theme_options.php:457
+#: inc/advanceoptions/page_options.php:73
+#: inc/advanceoptions/page_options.php:85
+#: inc/advanceoptions/page_options.php:96
+#: inc/advanceoptions/page_options.php:107
+#: inc/advanceoptions/page_options.php:149
+#: inc/advanceoptions/page_options.php:180
+#: inc/advanceoptions/page_options.php:191
+#: inc/advanceoptions/page_options.php:216
+#: inc/advanceoptions/page_options.php:272
+msgid "No"
+msgstr ""
+
+#: functions.php:204
+msgid "No item found."
+msgstr ""
+
+#: dokan/store.php:89
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:31
+msgid "no rating"
+msgstr ""
+
+#: inc/widgets/blogs.php:299 inc/widgets/product_categories.php:156
+msgid "None"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:98
+msgid "Note: Youtube Video does not work on mobile"
+msgstr ""
+
+#: search.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: admin/theme_options.php:612
+msgid "Number"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:174
+msgid "Number of comments to show"
+msgstr ""
+
+#: inc/widgets/instagram.php:107
+msgid "Number of photos"
+msgstr ""
+
+#: inc/widgets/blogs.php:292 inc/widgets/blogs_tabs.php:211
+#: inc/widgets/products.php:289
+msgid "Number of posts to show"
+msgstr ""
+
+#: admin/theme_options.php:775
+msgid "Number of products per page"
+msgstr ""
+
+#: admin/theme_options.php:723
+msgid "Number Of Results"
+msgstr ""
+
+#: inc/widgets/blogs.php:378 inc/widgets/products.php:284
+#: inc/widgets/recent_comments.php:211
+msgid "Number of rows - in carousel slider"
+msgstr ""
+
+#: inc/widgets/blogs.php:366 inc/widgets/blogs_tabs.php:246
+msgid "Number of words in excerpt"
+msgstr ""
+
+#: admin/theme_options.php:892
+msgid ""
+"Number of words to show product description on grid view. It is also used "
+"for product shortcode"
+msgstr ""
+
+#: admin/theme_options.php:908
+msgid "Number of words to show product description on list view"
+msgstr ""
+
+#: inc/widgets/product_categories.php:154
+msgid "Number product"
+msgstr ""
+
+#: admin/theme_options.php:262
+msgid "Off Canvas"
+msgstr ""
+
+#: inc/customizer.php:82 inc/customizer.php:129
+msgid "One Column"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:157
+msgid "Only available on transparent header"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:83
+msgid "Only support Fullwidth Template"
+msgstr ""
+
+#: archive.php:28
+msgid "OOPS! FILE NOT FOUND"
+msgstr ""
+
+#: inc/widgets/product_filter_by_color.php:184
+msgid "OR"
+msgstr ""
+
+#: inc/widgets/blogs.php:309 inc/widgets/product_categories.php:160
+msgid "Order"
+msgstr ""
+
+#: inc/widgets/blogs.php:297 inc/widgets/product_categories.php:150
+msgid "Order by"
+msgstr ""
+
+#: inc/widgets/instagram.php:124
+msgid "Original"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:34
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: inc/woo/hooks.php:51
+msgid "Out of stock"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:62
+msgid "Override"
+msgstr ""
+
+#: archive.php:80 functions.php:1244 search.php:35
+msgid "Page"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:322
+msgid "Page Footer"
+msgstr ""
+
+#: inc/customizer.php:77 inc/advanceoptions/page_options.php:20
+#: inc/advanceoptions/page_options.php:39
+msgid "Page Layout"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:15
+msgid "Page Options"
+msgstr ""
+
+#: admin/theme_options.php:389
+msgid "Page with details"
+msgstr ""
+
+#: template-parts/page/content-page.php:21
+msgid "Pages:"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:93
+msgid "Parallax"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:114
+msgid "Parallax Speed"
+msgstr ""
+
+#: inc/woo/functions.php:49
+msgid "Password"
+msgstr ""
+
+#: inc/custom-header.php:117
+msgid "Pause background video"
+msgstr ""
+
+#: admin/theme_options.php:613
+msgid "Percent"
+msgstr ""
+
+#: dokan/store-header.php:53
+msgid "Pinterest"
+msgstr ""
+
+#: admin/theme_options.php:383
+msgid ""
+"Place here some information about cookies usage that will be shown in the "
+"popup."
+msgstr ""
+
+#: admin/theme_options.php:674 inc/vc_extension/update_param.php:154
+msgid "Placeholder Image"
+msgstr ""
+
+#: inc/widgets/feedburner_subscription.php:102
+msgid "Placeholder text"
+msgstr ""
+
+#: inc/custom-header.php:116
+msgid "Play background video"
+msgstr ""
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/widgets/blogs_tabs.php:201
+msgid "Popular tab title"
+msgstr ""
+
+#: admin/theme_options.php:161 inc/register_sidebar.php:67
+msgid "Popup Newletter"
+msgstr ""
+
+#: admin/theme_options.php:175
+msgid "Popup Newletter Background Image"
+msgstr ""
+
+#: admin/theme_options.php:382
+msgid "Popup text"
+msgstr ""
+
+#: functions.php:1245
+msgid "Portfolio"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:35
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:30
+msgid "Portfolio Options"
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:57
+msgid "Post Audio"
+msgstr ""
+
+#: template-parts/post/content.php:103
+#: template-parts/post/related-posts.php:131
+msgid "Post by: "
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:57
+msgid "Post Gallery"
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:13
+#: inc/advanceoptions/post_options.php:20
+msgid "Post Layout"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:52
+msgid "Post Options"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:165
+msgid "Post type"
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:71
+msgid "Post Video"
+msgstr ""
+
+#: index.php:18
+msgid "Posts"
+msgstr ""
+
+#: related-portfolio.php:49
+msgid ""
+"Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu "
+"vulputate magna eros eu erat. "
+msgstr ""
+
+#: single-portfolio.php:101
+msgid "Prev Project"
+msgstr ""
+
+#: index.php:50 single.php:32
+msgid "Previous"
+msgstr ""
+
+#: archive.php:78 search.php:33
+msgid "Previous page"
+msgstr ""
+
+#: single.php:32
+msgid "Previous Post"
+msgstr ""
+
+#: inc/vc_extension/templates/vc_tabs.php:53
+msgid "Previous tab"
+msgstr ""
+
+#: admin/theme_options.php:421
+msgid "Primary Color"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:250
+msgid "Primary color"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:167
+#: template-parts/navigation/navigation-primary.php:12
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:373
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/woo/hooks.php:451
+msgid "Print"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:63
+msgid "Product 360"
+msgstr ""
+
+#: admin/theme_options.php:873 admin/theme_options.php:1043
+msgid "Product Add To Cart Button"
+msgstr ""
+
+#: admin/theme_options.php:1168
+msgid "Product Ads Banner"
+msgstr ""
+
+#: admin/theme_options.php:951
+msgid "Product Attribute Dropdown"
+msgstr ""
+
+#: admin/theme_options.php:1011
+msgid "Product Availability"
+msgstr ""
+
+#: admin/theme_options.php:828 admin/theme_options.php:1051
+msgid "Product Categories"
+msgstr ""
+
+#: admin/theme_options.php:737
+msgid "Product Category"
+msgstr ""
+
+#: admin/theme_options.php:742
+msgid "Product Category Layout"
+msgstr ""
+
+#: inc/register_sidebar.php:33
+msgid "Product Category Sidebar"
+msgstr ""
+
+#: inc/register_sidebar.php:42
+msgid "Product Category Top Content"
+msgstr ""
+
+#: admin/theme_options.php:945
+msgid "Product Cloud Zoom"
+msgstr ""
+
+#: admin/theme_options.php:762
+msgid "Product Columns"
+msgstr ""
+
+#: admin/theme_options.php:1027
+msgid "Product Count Down"
+msgstr ""
+
+#: admin/theme_options.php:1145
+msgid "Product Custom Tab"
+msgstr ""
+
+#: admin/theme_options.php:1161
+msgid "Product Custom Tab Content"
+msgstr ""
+
+#: admin/theme_options.php:1154
+msgid "Product Custom Tab Title"
+msgstr ""
+
+#: admin/theme_options.php:925
+msgid "Product Detail Layout"
+msgstr ""
+
+#: inc/register_sidebar.php:51
+msgid "Product Detail Sidebar"
+msgstr ""
+
+#: inc/register_sidebar.php:60
+msgid "Product Detail Social Icon"
+msgstr ""
+
+#: admin/theme_options.php:920
+msgid "Product Details"
+msgstr ""
+
+#: admin/theme_options.php:1019
+msgid "Product Excerpt"
+msgstr ""
+
+#: admin/theme_options.php:591
+msgid "Product Feature Label Text"
+msgstr ""
+
+#: admin/theme_options.php:617
+msgid "Product Hover Style"
+msgstr ""
+
+#: admin/theme_options.php:577 admin/theme_options.php:819
+#: admin/theme_options.php:965
+msgid "Product Label"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:13
+#: inc/advanceoptions/product_options.php:20
+msgid "Product Layout"
+msgstr ""
+
+#: admin/theme_options.php:973
+msgid "Product Navigation"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:47
+msgid "Product Options"
+msgstr ""
+
+#: admin/theme_options.php:598
+msgid "Product Out Of Stock Label Text"
+msgstr ""
+
+#: admin/theme_options.php:864 admin/theme_options.php:1035
+msgid "Product Price"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:26
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: admin/theme_options.php:855 admin/theme_options.php:995
+msgid "Product Rating"
+msgstr ""
+
+#: admin/theme_options.php:584
+msgid "Product Sale Label Text"
+msgstr ""
+
+#: admin/theme_options.php:1067
+msgid "Product Sharing"
+msgstr ""
+
+#: admin/theme_options.php:882
+msgid "Product Short Description - Grid View"
+msgstr ""
+
+#: admin/theme_options.php:891
+msgid "Product Short Description - Grid View - Limit Words"
+msgstr ""
+
+#: admin/theme_options.php:898
+msgid "Product Short Description - List View"
+msgstr ""
+
+#: admin/theme_options.php:907
+msgid "Product Short Description - List View - Limit Words"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:109
+msgid "Product Size Chart"
+msgstr ""
+
+#: admin/theme_options.php:846 admin/theme_options.php:1003
+msgid "Product SKU"
+msgstr ""
+
+#: admin/theme_options.php:1109 admin/theme_options.php:1115
+msgid "Product Tabs"
+msgstr ""
+
+#: admin/theme_options.php:1134
+msgid "Product Tabs Position"
+msgstr ""
+
+#: admin/theme_options.php:1123
+msgid "Product Tabs Style"
+msgstr ""
+
+#: admin/theme_options.php:1059
+msgid "Product Tags"
+msgstr ""
+
+#: admin/theme_options.php:810 admin/theme_options.php:957
+msgid "Product Thumbnail"
+msgstr ""
+
+#: admin/theme_options.php:1093 inc/widgets/products.php:301
+msgid "Product Thumbnails"
+msgstr ""
+
+#: admin/theme_options.php:1099
+msgid "Product Thumbnails Style"
+msgstr ""
+
+#: admin/theme_options.php:837 admin/theme_options.php:981
+msgid "Product Title"
+msgstr ""
+
+#: admin/theme_options.php:989
+msgid "Product Title In Content"
+msgstr ""
+
+#: inc/widgets/products.php:253
+msgid "Product type"
+msgstr ""
+
+#: woocommerce/content-product_cat.php:41
+msgid "Products"
+msgstr ""
+
+#: admin/theme_options.php:774
+msgid "Products Per Page"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:24
+msgid "Quantity:"
+msgstr ""
+
+#: inc/widgets/product_filter_by_color.php:181
+msgid "Query Type:"
+msgstr ""
+
+#: inc/woo/quickshop.php:16
+msgid "Quick view"
+msgstr ""
+
+#: admin/theme_options.php:681
+msgid "Quickshop"
+msgstr ""
+
+#: inc/widgets/blogs.php:304 inc/widgets/product_categories.php:155
+msgid "Random"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:32
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:27
+msgid "Rating"
+msgstr ""
+
+#: template-parts/post/content.php:155
+#: template-parts/post/related-posts.php:160
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/products.php:255
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/blogs_tabs.php:206
+msgid "Recent tab title"
+msgstr ""
+
+#: admin/et-templates/header.tpl.php:35
+msgid "Redux has enabled developer mode because"
+msgstr ""
+
+#: admin/theme_options.php:1189
+msgid "Related - Up-Sell Products"
+msgstr ""
+
+#: template-parts/post/related-posts.php:44
+msgid "Related Posts"
+msgstr ""
+
+#: related-portfolio.php:42 admin/theme_options.php:1203
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: inc/woo/term.php:39 inc/woo/term.php:85 inc/woo/term.php:98
+#: inc/woo/term.php:142 inc/woo/term.php:203 inc/woo/term.php:225
+msgid "Remove image"
+msgstr ""
+
+#: comments.php:30
+msgid "Reply"
+msgstr ""
+
+#: admin/theme_options.php:755 admin/theme_options.php:938
+#: admin/theme_options.php:1247 admin/theme_options.php:1361
+#: inc/advanceoptions/page_options.php:45
+#: inc/advanceoptions/page_options.php:60
+#: inc/advanceoptions/post_options.php:27
+#: inc/advanceoptions/post_options.php:42
+#: inc/advanceoptions/product_options.php:27
+#: inc/advanceoptions/product_options.php:42 inc/woo/term.php:49
+#: inc/woo/term.php:65 inc/woo/term.php:154 inc/woo/term.php:173
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/widgets/products.php:256
+msgid "Sale"
+msgstr ""
+
+#: functions.php:879 searchform.php:3 searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: functions.php:875
+msgid "Search ..."
+msgstr ""
+
+#: admin/theme_options.php:268
+msgid "Search Bar"
+msgstr ""
+
+#: searchform.php:8
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:1240
+msgid "Search results for "
+msgstr ""
+
+#: archive.php:19
+msgid "Search Results for: "
+msgstr ""
+
+#: search.php:9
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: admin/theme_options.php:507
+msgid "Secondary Body Font - Enable Google Font"
+msgstr ""
+
+#: admin/theme_options.php:429
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:258
+msgid "Secondary color"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:295
+msgid "Secondary Font Google"
+msgstr ""
+
+#: admin/theme_options.php:422
+msgid "Select a main color for your site."
+msgstr ""
+
+#: admin/theme_options.php:176 admin/theme_options.php:310
+msgid "Select a new image to override current background image"
+msgstr ""
+
+#: admin/theme_options.php:1084
+msgid "Select an image file for all Product"
+msgstr ""
+
+#: admin/theme_options.php:114
+msgid "Select an image file for the main logo"
+msgstr ""
+
+#: inc/widgets/blogs.php:317 inc/widgets/products.php:265
+#: inc/widgets/product_categories.php:131
+msgid "Select categories"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:193
+msgid "Select Image"
+msgstr ""
+
+#: admin/theme_options.php:743 admin/theme_options.php:926
+#: admin/theme_options.php:1237 admin/theme_options.php:1351
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: inc/customizer.php:108
+msgid ""
+"Select pages to feature in each area from the dropdowns. Add an image to a "
+"section by setting a featured image in the page editor. Empty sections will "
+"not be displayed."
+msgstr ""
+
+#: inc/advanceoptions/logo_options.php:17
+msgid "Self"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:29
+msgid "Shipping Address"
+msgstr ""
+
+#: inc/template-functions.php:104
+msgid "Shop by category"
+msgstr ""
+
+#: woocommerce/content-product_cat.php:51
+msgid "Shop Now"
+msgstr ""
+
+#: admin/theme_options.php:251 inc/woo/functions.php:133
+msgid "Shopping Cart"
+msgstr ""
+
+#: admin/theme_options.php:785 admin/theme_options.php:805
+#: admin/theme_options.php:814 admin/theme_options.php:823
+#: admin/theme_options.php:832 admin/theme_options.php:841
+#: admin/theme_options.php:850 admin/theme_options.php:859
+#: admin/theme_options.php:868 admin/theme_options.php:877
+#: admin/theme_options.php:886 admin/theme_options.php:902
+#: admin/theme_options.php:961 admin/theme_options.php:969
+#: admin/theme_options.php:977 admin/theme_options.php:985
+#: admin/theme_options.php:999 admin/theme_options.php:1007
+#: admin/theme_options.php:1015 admin/theme_options.php:1023
+#: admin/theme_options.php:1031 admin/theme_options.php:1039
+#: admin/theme_options.php:1047 admin/theme_options.php:1055
+#: admin/theme_options.php:1063 admin/theme_options.php:1071
+#: admin/theme_options.php:1079 admin/theme_options.php:1119
+#: admin/theme_options.php:1149 admin/theme_options.php:1178
+#: admin/theme_options.php:1199 admin/theme_options.php:1207
+#: admin/theme_options.php:1257 admin/theme_options.php:1265
+#: admin/theme_options.php:1273 admin/theme_options.php:1281
+#: admin/theme_options.php:1289 admin/theme_options.php:1297
+#: admin/theme_options.php:1305 admin/theme_options.php:1313
+#: admin/theme_options.php:1321 admin/theme_options.php:1371
+#: admin/theme_options.php:1379 admin/theme_options.php:1387
+#: admin/theme_options.php:1395 admin/theme_options.php:1403
+#: admin/theme_options.php:1411 admin/theme_options.php:1419
+#: admin/theme_options.php:1427 admin/theme_options.php:1435
+#: admin/theme_options.php:1443 inc/advanceoptions/product_options.php:120
+#: wc-vendors/dashboard/date-picker.php:31
+msgid "Show"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:180
+msgid "Show avatar"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:186
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/widgets/products.php:309
+msgid "Show categories"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:190
+msgid "Show comment author"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:195
+msgid "Show comment content"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:185
+msgid "Show comment date"
+msgstr ""
+
+#: admin/theme_options.php:375
+msgid "Show cookies info"
+msgstr ""
+
+#: inc/widgets/blogs.php:374 inc/widgets/products.php:331
+#: inc/widgets/recent_comments.php:207
+msgid "Show in a carousel slider"
+msgstr ""
+
+#: inc/widgets/blogs.php:384 inc/widgets/products.php:336
+#: inc/widgets/recent_comments.php:217
+msgid "Show navigation button"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:175
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/widgets/blogs.php:352 inc/widgets/blogs_tabs.php:232
+msgid "Show post author"
+msgstr ""
+
+#: inc/widgets/blogs.php:337
+msgid "Show post blog-image"
+msgstr ""
+
+#: inc/widgets/blogs.php:357 inc/widgets/blogs_tabs.php:237
+msgid "Show post comment"
+msgstr ""
+
+#: inc/widgets/product_categories.php:120
+msgid "Show post count"
+msgstr ""
+
+#: inc/widgets/blogs.php:347 inc/widgets/blogs_tabs.php:227
+msgid "Show post date"
+msgstr ""
+
+#: inc/widgets/blogs.php:362 inc/widgets/blogs_tabs.php:242
+msgid "Show post excerpt"
+msgstr ""
+
+#: inc/widgets/recent_comments.php:200
+msgid "Show post on"
+msgstr ""
+
+#: inc/widgets/blogs_tabs.php:217
+msgid "Show post thumbnail"
+msgstr ""
+
+#: inc/widgets/blogs.php:342 inc/widgets/blogs_tabs.php:222
+msgid "Show post title"
+msgstr ""
+
+#: inc/widgets/products.php:319
+msgid "Show price"
+msgstr ""
+
+#: admin/theme_options.php:883
+msgid "Show product description on grid view"
+msgstr ""
+
+#: admin/theme_options.php:899
+msgid "Show product description on list view"
+msgstr ""
+
+#: inc/widgets/products.php:314
+msgid "Show product title"
+msgstr ""
+
+#: inc/widgets/products.php:324
+msgid "Show rating"
+msgstr ""
+
+#: admin/theme_options.php:605
+msgid "Show Sale Label As"
+msgstr ""
+
+#: admin/theme_options.php:644
+msgid ""
+"Show second product image on hover. It will show an image from Product "
+"Gallery"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:116
+msgid "Show Size Chart"
+msgstr ""
+
+#: inc/widgets/product_categories.php:124
+msgid "Show sub categories"
+msgstr ""
+
+#: inc/widgets/products.php:295
+msgid "Show thumbnail"
+msgstr ""
+
+#: inc/widgets/product_filter_by_color.php:12
+msgid ""
+"Shows list of product colors which let you filter product when viewing "
+"product categories. You have to have product attribute with slug \"color\""
+msgstr ""
+
+#: inc/woo/functions.php:34
+msgid "Sign up"
+msgstr ""
+
+#: inc/widgets/products.php:303
+msgid "Single Product Image"
+msgstr ""
+
+#: inc/widgets/instagram.php:119
+msgid "Size"
+msgstr ""
+
+#: admin/theme_options.php:1075 inc/woo/hooks.php:537
+msgid "Size Chart"
+msgstr ""
+
+#: admin/theme_options.php:1083 inc/advanceoptions/product_options.php:127
+msgid "Size Chart Image"
+msgstr ""
+
+#: inc/woo/hooks.php:508
+msgid "Sku: "
+msgstr ""
+
+#: inc/widgets/product_categories.php:153
+msgid "Slug"
+msgstr ""
+
+#: inc/widgets/instagram.php:122
+msgid "Small"
+msgstr ""
+
+#: search.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:18
+msgid "Sort by:"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:164
+msgid "Start Time"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:243
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:175
+msgid "Stop Time"
+msgstr ""
+
+#: dokan/store.php:17
+msgid "Store"
+msgstr ""
+
+#: dokan/store.php:39
+msgid "Store Category"
+msgstr ""
+
+#: dokan/store.php:42
+msgid "Store Location"
+msgstr ""
+
+#: admin/theme_options.php:1326
+msgid "Strip all html tags in Excerpt"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:209 inc/vc_extension/update_param.php:253
+msgid "Style"
+msgstr ""
+
+#: admin/theme_options.php:630
+msgid "Style 1"
+msgstr ""
+
+#: admin/theme_options.php:631
+msgid "Style 2"
+msgstr ""
+
+#: admin/theme_options.php:632
+msgid "Style 3"
+msgstr ""
+
+#: admin/theme_options.php:406
+msgid "Styling"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:214 inc/vc_extension/update_param.php:258
+msgid "Tab Title With Background Color"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:215 inc/vc_extension/update_param.php:259
+msgid "Tab Title With Top Border"
+msgstr ""
+
+#: inc/woo/hooks.php:499
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:22
+msgid "Tag: "
+msgstr ""
+
+#: functions.php:1242
+msgid "Tagged "
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "Tags"
+msgstr ""
+
+#: template-parts/post/content.php:119
+#: template-parts/post/single-content.php:114
+msgid "Tags: "
+msgstr ""
+
+#: inc/advanceoptions/logo_options.php:13 inc/widgets/instagram.php:128
+msgid "Target"
+msgstr ""
+
+#: inc/advanceoptions/advanceoptions.php:20
+msgid "Testimonial Options"
+msgstr ""
+
+#: admin/theme_options.php:611
+msgid "Text"
+msgstr ""
+
+#: admin/theme_options.php:133
+msgid "Text Logo"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#. Author of the theme
+msgid "the ThemeFTC team"
+msgstr ""
+
+#: admin/theme_options.php:1466 admin/theme_options.php:1467
+#: inc/customizer.php:66
+msgid "Theme Options"
+msgstr ""
+
+#: admin/theme_options.php:194
+msgid ""
+"This header style will be showed only in inner pages, please go to Pages > "
+"Homepage to change header for front page."
+msgstr ""
+
+#: admin/theme_options.php:501 admin/theme_options.php:532
+msgid "This is my font preview!"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:38
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: inc/widgets/instagram.php:121
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/filter_by_color_options.php:68 inc/filter_by_color_options.php:135
+msgid "Thumbnail Image"
+msgstr ""
+
+#: inc/widgets/products.php:299
+msgid "Thumbnail size"
+msgstr ""
+
+#: inc/widgets/blogs.php:301
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/product_filter_by_color.php:177
+msgid "Title:"
+msgstr ""
+
+#: wc-vendors/dashboard/date-picker.php:25
+msgid "To:"
+msgstr ""
+
+#: inc/woo/term.php:103 inc/woo/term.php:231
+msgid "Top border color"
+msgstr ""
+
+#: admin/theme_options.php:801
+msgid "Top Content Widget Area"
+msgstr ""
+
+#: inc/widgets/products.php:259
+msgid "Top rated"
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:144
+msgid "Transparent Header"
+msgstr ""
+
+#: dokan/store-header.php:50
+msgid "twitter"
+msgstr ""
+
+#: inc/customizer.php:83 inc/customizer.php:130
+msgid "Two Column"
+msgstr ""
+
+#: admin/theme_options.php:448
+msgid "Typography"
+msgstr ""
+
+#: inc/widgets/instagram.php:158
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: admin/theme_options.php:376
+msgid ""
+"Under EU privacy regulations, websites must make it clear to visitors what "
+"information about them is being stored. This specifically includes cookies. "
+"Turn on this option and user will see info box at the bottom of the page "
+"that your web-site is using cookies."
+msgstr ""
+
+#: admin/theme_options.php:1195
+msgid "Up-Sell Products"
+msgstr ""
+
+#: inc/woo/term.php:38 inc/woo/term.php:84 inc/woo/term.php:97
+#: inc/woo/term.php:141 inc/woo/term.php:202 inc/woo/term.php:224
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/advanceoptions/testimonial_options.php:20
+msgid "URL"
+msgstr ""
+
+#: inc/filter_by_color_options.php:63 inc/filter_by_color_options.php:131
+msgid "Use color picker to pick one color."
+msgstr ""
+
+#: inc/filter_by_color_options.php:99 inc/filter_by_color_options.php:165
+msgid "Use image"
+msgstr ""
+
+#: inc/widgets/instagram.php:103 inc/woo/functions.php:45
+msgid "Username"
+msgstr ""
+
+#: admin/theme_options.php:1105 admin/theme_options.php:1131
+msgid "Vertical"
+msgstr ""
+
+#: functions.php:374
+msgid "Vertical Navigation"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:96
+msgid "Video"
+msgstr ""
+
+#: inc/advanceoptions/post_options.php:78
+#: inc/advanceoptions/product_options.php:103
+msgid "Video URL"
+msgstr ""
+
+#: functions.php:189 functions.php:1032
+#, php-format
+msgid "View all %d results"
+msgstr ""
+
+#: template-parts/post/single-content.php:124
+msgid "View: "
+msgstr ""
+
+#: admin/theme_options.php:384
+msgid ""
+"We use cookies to improve your experience on our website. By browsing this "
+"website, you agree to our use of cookies."
+msgstr ""
+
+#: inc/vc_extension/update_param.php:144
+msgid "WebM / Ogg Video URL"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid ""
+"When the two column layout is assigned, the page title is in one column and "
+"content is in the other."
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:33 inc/vc_extension/update_param.php:80
+msgid "Wide"
+msgstr ""
+
+#: admin/theme_options.php:284 inc/woo/functions.php:191
+#: inc/woo/functions.php:193 inc/woo/hooks.php:707 inc/woo/hooks.php:711
+#: inc/woo/hooks.php:715
+msgid "Wishlist"
+msgstr ""
+
+#: admin/theme_options.php:574
+msgid "Woocommerce"
+msgstr ""
+
+#: admin/et-templates/header.tpl.php:21
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:44
+msgid "Write your comment"
+msgstr ""
+
+#: archive.php:16
+msgid "Year: "
+msgstr ""
+
+#: archive.php:16
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: admin/theme_options.php:168 admin/theme_options.php:244
+#: admin/theme_options.php:252 admin/theme_options.php:269
+#: admin/theme_options.php:277 admin/theme_options.php:285
+#: admin/theme_options.php:320 admin/theme_options.php:339
+#: admin/theme_options.php:347 admin/theme_options.php:456
+#: inc/advanceoptions/page_options.php:72
+#: inc/advanceoptions/page_options.php:84
+#: inc/advanceoptions/page_options.php:95
+#: inc/advanceoptions/page_options.php:106
+#: inc/advanceoptions/page_options.php:148
+#: inc/advanceoptions/page_options.php:179
+#: inc/advanceoptions/page_options.php:190
+#: inc/advanceoptions/page_options.php:215
+#: inc/advanceoptions/page_options.php:271
+msgid "Yes"
+msgstr ""
+
+#: functions.php:666
+msgid "Yes, I'm Accept "
+msgstr ""
+
+#: inc/advanceoptions/page_options.php:323
+msgid "You also need to add the FTC - Footer widget into Footer widget"
+msgstr ""
+
+#: admin/et-templates/header.tpl.php:27
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: admin/theme_options.php:319
+msgid ""
+"You can set background color by going to Color Scheme tab > Breadcrumb "
+"Colors section"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:117
+msgid ""
+"You can show or hide Size Chart for all product on Theme Option > Product "
+"Detail"
+msgstr ""
+
+#: inc/advanceoptions/product_options.php:128
+msgid "You can upload size chart image for product"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:73
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: admin/theme_options.php:1028
+msgid "You have to activate ThemeFTC plugin"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Your order"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:94
+msgid "Youtube Video"
+msgstr ""
+
+#: inc/vc_extension/update_param.php:124
+msgid "Youtube Video URL"
+msgstr ""

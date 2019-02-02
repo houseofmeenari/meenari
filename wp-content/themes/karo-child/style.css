@@ -1,0 +1,225 @@
+
+/*
+Header Styles
+*/
+
+.header-layout10 .admin-bar9 >.container {
+  justify-content: space-evenly;
+}
+
+.header-layout10 .admin-bar9 {
+	padding: 60px 0 20px 0;
+}
+
+.header-layout10 .admin-bar9 .logo-wrapper.is-desktop {
+  padding-right: 0px;
+}
+
+.normal-logo {
+  max-width: 70%;
+}
+
+.logo {
+  text-align: center;
+}
+
+
+
+
+.social-header ul li {
+  border: none;
+}
+
+.social-header ul li a {
+  color: #999;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.social-header ul li a i {
+  padding-left: 0.5em;
+  font-size: 19px;
+}
+
+
+
+.social-header ul li a:hover {
+  color:#04b9ba;
+}
+
+.header-layout10 .left-9 ul li:hover a {
+  color: #999;
+}
+.header-layout10 .left-9 ul li a {
+  color: #04b9ba;
+}
+
+
+/*
+Breadcrumb Header height reduction.
+*/
+
+.ftc-breadcrumb-title.container {
+  padding: 0;
+  color: #999;
+}
+
+.ftc-breadcrumb-title .ftc-breadcrumbs-content a, .ftc-breadcrumb-title .ftc-breadcrumbs-content span ~ a {
+  color: #999;
+}
+
+.ftc-breadcrumb-title .ftc-breadcrumbs-content a, .ftc-breadcrumb-title .ftc-breadcrumbs-content span {
+  color:#04b9ba;
+}
+
+.ftc-breadcrumb-title h1 {
+  color: #999;
+  padding-top: 1em;
+}
+
+
+/*
+Mega-Menu CSS
+*/
+
+#mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link .link_text {
+  font-size: 16px;
+}
+
+.header-nav-menu .container {
+  justify-content: flex-start;
+}
+
+.sub-check {
+  display: block;
+  color: #f3f3f3;
+}
+
+/* removed 20px of margin to resolve onhover overlap issue. */
+.best-seller-v2 .woocommerce .ftc-slider .products .ftc-product.product:last-child {
+    margin-top: -30px;
+}
+
+/* Wrapper */
+.vc_custom_1500261086465 .trending-product > .wpb_wrapper{
+	top: 100px;
+}
+
+.summer_special .wpb_column.vc_col-sm-9 {
+  margin-top: 0;
+}
+
+.trending-product {
+  margin-top: 0;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  top: 50px;
+  left: 70px;
+}
+
+.trending-product > .wpb_wrapper {
+  background: #fff;
+}
+
+.footer-top .insragram-bot.wpb_row {
+  padding: 0 !important;
+  width: 100%;
+}
+
+.insragram-bot .ftc-instagram-widget .item img {
+  height: auto;
+}
+
+.insragram-bot > .wpb_column {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blog-home .blog-home-v2 .blogs header.post-img {
+  max-height: 120px;
+}
+
+h3.title-popup {
+  font-size: 20px;
+  color: #04b9ba;
+  text-align: left;
+}
+
+#mc4wp-form-1 {
+  margin: 1em 0 1em 0;
+}
+
+.mc4wp-form-fields p.title {
+  display: none;
+}
+
+label.sub-check {
+  margin-top: 1em;
+  margin-bottom: 1em !important;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 4px 5px 0 !important;
+}
+
+p.button-popup {
+  color: #04b9ba;
+}
+
+button, input[type="button"], input[type="submit"], input[name="add-to-cart"] {
+  max-width: 25%;
+  background-color: #04b9ba;
+}
+
+button, input[type="button"], input[type="submit"]:hover {
+  background-color: #fff;
+  color: #04b9ba;
+}
+
+
+.today-deal .deal-slider {
+  padding: 0px 0 74px;
+}
+
+.deal-today h2 {
+  margin-top: -50px;
+  padding-top: 0;
+  color: #e06c9f;
+  margin-bottom: 1em;
+}
+
+.deal-today h4 {
+  color: #dc7f98;
+  margin-bottom: 1em;
+}
+
+.ftc-smooth-image .ftc-smooth {
+  max-width: 75%;
+}
+
+
+/* Modal Window (signup) */
+.modal-wrapper.styled .modal {
+  margin-top: 15em;
+  max-width: 62%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+label.sub-check {
+  color: #000000;
+}
+
+.signup-title h1{
+  background: #f9c8c7;
+  width: 100%;
+  height: 3em;
+  color: #dc7f98;
+  padding-top: 1em;
+}
