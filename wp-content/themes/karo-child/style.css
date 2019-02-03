@@ -5,6 +5,7 @@ Header Styles
 
 .header-layout10 .admin-bar9 >.container {
   justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 .header-layout10 .admin-bar9 {
@@ -17,16 +18,19 @@ Header Styles
 
 .normal-logo {
   max-width: 70%;
+  margin-left: 8em;
 }
 
 .logo {
   text-align: center;
 }
 
+.social-header ul {
+  margin-left: 5em;
+  border: none;
+}
 
-
-
-.social-header ul li {
+.meenari-header ul li {
   border: none;
 }
 
@@ -41,8 +45,6 @@ Header Styles
   font-size: 19px;
 }
 
-
-
 .social-header ul li a:hover {
   color:#04b9ba;
 }
@@ -52,6 +54,10 @@ Header Styles
 }
 .header-layout10 .left-9 ul li a {
   color: #04b9ba;
+}
+
+.admin-bar9 > container {
+
 }
 
 
@@ -78,6 +84,8 @@ Breadcrumb Header height reduction.
 }
 
 
+
+
 /*
 Mega-Menu CSS
 */
@@ -90,15 +98,24 @@ Mega-Menu CSS
   justify-content: center;
 }
 
-.sub-check {
-  display: block;
-  color: #f3f3f3;
+/* Megamenu Flex */
+/* still need to get menu to stay when on that same product category page. */
+.header-layout10 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li:hover > ul.mega_dropdown {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  flex-wrap: nowrap;
+}
+
+.header-content .header-sticky {
+  
 }
 
 /* removed 20px of margin to resolve onhover overlap issue. */
 .best-seller-v2 .woocommerce .ftc-slider .products .ftc-product.product:last-child {
     margin-top: -30px;
 }
+
 
 /* Wrapper */
 .vc_custom_1500261086465 .trending-product > .wpb_wrapper{
@@ -157,11 +174,13 @@ h3.title-popup {
 }
 
 label.sub-check {
+  display: block;
   margin-top: 1em;
   margin-bottom: 1em !important;
   font-weight: 400;
   font-size: 12px;
   padding-left: 5px;
+  color: #04b9ba;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -173,13 +192,18 @@ p.button-popup {
 }
 
 button, input[type="button"], input[type="submit"], input[name="add-to-cart"] {
-  max-width: 25%;
   background-color: #04b9ba;
 }
 
 button, input[type="button"], input[type="submit"]:hover {
   background-color: #fff;
   color: #04b9ba;
+}
+
+.deal-today > .cont {
+  max-width: 300px;
+  min-height:300px;
+  background: #fff;
 }
 
 
@@ -190,12 +214,12 @@ button, input[type="button"], input[type="submit"]:hover {
 .deal-today h2 {
   margin-top: -50px;
   padding-top: 0;
-  color: #e06c9f;
+  color: #54565b;
   margin-bottom: 1em;
 }
 
 .deal-today h4 {
-  color: #dc7f98;
+  color: #04b9ba;
   margin-bottom: 1em;
 }
 
@@ -212,9 +236,6 @@ button, input[type="button"], input[type="submit"]:hover {
   padding: 20px;
 }
 
-label.sub-check {
-  color: #000000;
-}
 
 .signup-title h1{
   background: #f9c8c7;
@@ -223,16 +244,6 @@ label.sub-check {
   color: #dc7f98;
   padding-top: 1em;
 }
-
-/* Megamenu Flex */
-/* still need to get menu to stay when on that same product category page. */
-.header-layout10 #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li:hover > ul.mega_dropdown {
-  display: flex;
-  justify-content: space-evenly;
-  width: auto;
-  flex-wrap: nowrap;
-}
-
 
 
 /* Woocommerce Product Title for Thumbnails (shop) */
@@ -298,4 +309,44 @@ label.sub-check {
 .woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
   color: #04b9ba;
   font-size: .9em;
+}
+
+.ftc-cart-tini cart-item-canvas::before {
+	content: '/290' !important;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	margin: -2px -4px;
+	display: inline-block;
+}
+
+/* Footer */
+
+.social-icons > .list-icons {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+/* Misc. */
+span.brand_name {
+  color: #e06c9f;
+  font-family: "Alice", serif;
+  font-size: 2em;
+}
+
+.woocommer-message {
+  border-top-color: #e06c9f;
+}
+
+a.ftc-cart-tini.cart-item-canvas:before {
+  content: "\f290";
+  font-family: "Fontawesome";
+  font-size: 18px;
+  margin-right: 0;
+  line-height: 36px;
+}
+
+.off-canvas-cart-title > .title {
+  content: "Shopping Bag";
 }
