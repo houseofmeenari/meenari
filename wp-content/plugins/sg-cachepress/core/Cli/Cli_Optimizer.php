@@ -21,22 +21,12 @@ use SiteGround_Optimizer\Images_Optimizer\Images_Optimizer;
  */
 class Cli_Optimizer {
 	/**
-<<<<<<< Updated upstream
 	 * Enable specific optimization for SG Optimizer plugin.
-=======
-	 * Enable specific option for SG Optimizer plugin.
->>>>>>> Stashed changes
 	 *
 	 * ## OPTIONS
 	 *
 	 * <optimization>
-<<<<<<< Updated upstream
 	 * : Optimization name.
-=======
-	 * : The action: check\change.
-	 * Use `change` along with `version` param, to switch to php version.
-	 * Use `check` to check if the
->>>>>>> Stashed changes
 	 * ---
 	 * options:
 	 *  - html
@@ -51,11 +41,7 @@ class Cli_Optimizer {
 	 * ---
 	 * <action>
 	 * : The action: enable\disable.
-<<<<<<< Updated upstream
 	 * Whether to enable or disable the optimization.
-=======
-	 * Wheter to enable or disable the optimization.
->>>>>>> Stashed changes
 	 *
 	 * [--blog_id=<blog_id>]
 	 * : Blod id for multisite optimizations

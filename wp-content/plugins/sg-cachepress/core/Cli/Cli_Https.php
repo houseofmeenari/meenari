@@ -20,7 +20,6 @@ use SiteGround_Optimizer\Options\Options;
  */
 class Cli_Https {
 	/**
-<<<<<<< Updated upstream
 	 * Allow you to enable/disable https.
 	 *
 	 * ## OPTIONS
@@ -30,9 +29,6 @@ class Cli_Https {
 	 * Use fix to apply fix for insecure content
 	 * <fix_action>
 	 * : Whether to enable or disable the insecure content fix.
-=======
-	 * Enable specific option for SG Optimizer plugin.
->>>>>>> Stashed changes
 	 */
 	public function __invoke( $args, $assoc_args ) {
 		$this->ssl            = new Ssl();

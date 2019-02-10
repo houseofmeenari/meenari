@@ -13,12 +13,6 @@ class Admin_Bar {
 	 */
 	public function __construct() {
 		add_action( 'admin_bar_menu', array( $this, 'add_admin_bar_purge' ), PHP_INT_MAX );
-<<<<<<< Updated upstream
-=======
-
-		// Add the admin bar purge button handler.
-		add_action( 'wp_ajax_admin_bar_purge_cache', array( $this, 'purge_cache' ) );
->>>>>>> Stashed changes
 	}
 
 
@@ -60,10 +54,7 @@ class Admin_Bar {
 		}
 
 		Supercacher::purge_cache();
-<<<<<<< Updated upstream
 		Supercacher::flush_memcache();
-=======
->>>>>>> Stashed changes
 
 		wp_safe_redirect( $_SERVER['HTTP_REFERER'] );
 		exit;

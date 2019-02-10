@@ -646,7 +646,7 @@ jQuery('a.ftc-size_chart').prettyPhoto({
       if ($('.single-product').length > 0) { 
         $('.single-product .product .thumbnails.loading').each(function(){
             $(this).find('.details_thumbnails').owlCarousel({
-                loop: true
+                loop: false
                 , nav: true
                 , navText: [, ]
                 , dots: false

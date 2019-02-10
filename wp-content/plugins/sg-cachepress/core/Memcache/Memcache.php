@@ -22,15 +22,10 @@ class Memcache {
 	 * @since 5.0.0
 	 */
 	public function __construct() {
-<<<<<<< Updated upstream
 		if ( ! defined( 'WP_CLI' ) ) {
 			add_action( 'wp_login', array( $this, 'status_healthcheck' ) );
 			add_action( 'plugins_loaded', array( $this, 'run' ) );
 		}
-=======
-		add_action( 'wp_login', array( $this, 'status_healthcheck' ) );
-		add_action( 'plugins_loaded', array( $this, 'run' ) );
->>>>>>> Stashed changes
 	}
 
 	/**
@@ -42,12 +37,8 @@ class Memcache {
 		// Store tha value in variable to prevent multiple database calls.
 		$is_memcache_enabled = Options::is_enabled( 'siteground_optimizer_enable_memcached' );
 
-<<<<<<< Updated upstream
 
 		if ( empty( $this->get_memcached_port() ) ) {
-=======
-		if ( ! $this->get_memcached_port() ) {
->>>>>>> Stashed changes
 			if ( $is_memcache_enabled ) {
 				Options::enable_option( 'siteground_optimizer_memcache_notice' );
 				$this->remove_memcached_dropin();
@@ -138,11 +129,7 @@ class Memcache {
 	 */
 	protected function get_port_file_contents() {
 		// Get the account name.
-<<<<<<< Updated upstream
 		$account_name = defined( 'WP_CLI' ) ? $_SERVER['USER'] : get_current_user();
-=======
-		$account_name = get_current_user();
->>>>>>> Stashed changes
 
 		// Generate the port file path.
 		$port_file_path = "/home/{$account_name}/.SGCache/cache_status";
@@ -205,11 +192,7 @@ class Memcache {
 		// Tyr to get the port.
 		$port = $this->get_memcached_port();
 		// Bail if the port doesn't exists.
-<<<<<<< Updated upstream
 		if ( empty( $port ) ) {
-=======
-		if ( ! $port ) {
->>>>>>> Stashed changes
 			return false;
 		}
 

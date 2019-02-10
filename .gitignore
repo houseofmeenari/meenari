@@ -54,18 +54,37 @@ Thumbs.db
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins" directory
 # "plugins" directory
-
-# "themes" directory
 wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
+
+# "themes" directory
 !wp-content/themes/
 
 # "ignore specific plugins: revisr, show current template, yellow pencil
-wp-content/plugins/revisr
+wp-content/plugins/revisr/
 wp-content/plugins/show-current-template/
 wp-content/plugins/yellow-pencil-visual-theme-customizer/
-
+wp-content/plugins/aceide/
+wp-content/plugins/advanced-database-cleaner/
+wp-content/plugins/all-in-one-wp-migration/
+wp-content/plugins/ari-adminer/
+wp-content/plugins/class-editor/
+wp-content/plugins/ftc_importer/
+wp-content/plugins/health-check/
+wp-content/plugins/minimal-coming-soon-maintenance-mode
+wp-content/plugins/redux-framework
+wp-content/plugins/robin-image-optimizer
+wp-content/plugins/sg-cachepress/
+wp-content/plugins/squirrly-seo/
+wp-content/plugins/woo-order-test/
+wp-content/plugins/product-sku-generator/
+wp-content/plugins/woocommerce-shipstation-integration/
+wp-content/plugins/woocommerce-square/
+wp-content/plugins/wordfence/
+wp-content/plugins/wp-exporter/
+wp-content/plugins/yellow-pencil-visual-theme-customizer/
+# wp-content/plugins/
 
 # ignore these plugins from the core
 wp-content/plugins/hello.php
@@ -86,3 +105,14 @@ node_modules/
 /sitemap.*
 /wp-config.php
 /mwp_db
+/wp-content/ari-adminer.php
+/wp-content/updraft/
+/wp-content/wflogs/
+/wp-content/ai1wm-backups/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/uploads/revisr-backups/
+/wp-content/uploads/js_composer/
+/wp-content/uploads/wc-logs/
+/wp-content/uploads/wio_backup/
+/wp-content/uploads/*.csv

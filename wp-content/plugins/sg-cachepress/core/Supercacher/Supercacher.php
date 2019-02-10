@@ -59,10 +59,7 @@ class Supercacher {
 		add_action( 'wp_update_nav_menu', array( $this, 'purge_everything' ) );
 		add_action( 'wp_ajax_widgets-order', array( $this, 'purge_everything' ), 1 );
 		add_action( 'wp_ajax_save-widget', array( $this, 'purge_everything' ), 1 );
-<<<<<<< Updated upstream
 		add_action( 'woocommerce_create_refund', array( $this, 'purge_everything' ), 1 );
-=======
->>>>>>> Stashed changes
 		add_action( 'wp_ajax_delete-selected', array( $this, 'purge_everything' ), 1 );
 		add_action( 'wp_ajax_edit-theme-plugin-file', array( $this, 'purge_everything' ), 1 );
 		add_action( 'update_option_siteground_optimizer_enable_cache', array( $this, 'purge_everything' ) );
@@ -150,11 +147,7 @@ class Supercacher {
 	 * @return bool True on success, false on failure.
 	 */
 	public function purge_index_cache() {
-<<<<<<< Updated upstream
 		return $this->purge_cache_request( get_home_url( '/' ), true );
-=======
-		return $this->purge_cache_request( get_home_url( '/' ), false );
->>>>>>> Stashed changes
 	}
 
 	/**
@@ -175,11 +168,7 @@ class Supercacher {
 
 		$hostname            = parse_url( home_url(), PHP_URL_HOST );
 		$ip                  = isset( $_SERVER['SERVER_ADDR'] ) ? $_SERVER['SERVER_ADDR'] : $hostname;
-<<<<<<< Updated upstream
 		$cache_server_socket = @fsockopen( $ip, 80, $errno, $errstr, 2 );
-=======
-		$cache_server_socket = fsockopen( $ip, 80, $errno, $errstr, 2 );
->>>>>>> Stashed changes
 
 		if ( ! $cache_server_socket ) {
 			return false;
@@ -218,11 +207,6 @@ class Supercacher {
 
 		fclose( $cache_server_socket );
 
-<<<<<<< Updated upstream
-=======
-		// Flush the memcache.
-		self::flush_memcache();
->>>>>>> Stashed changes
 		return preg_match( '/200/', $response );
 	}
 

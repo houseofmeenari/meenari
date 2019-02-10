@@ -188,11 +188,7 @@ class Minifier {
 				stripos( $wp_scripts->registered[ $handle ]->src, '.min.js' ) !== false || // If the file is minified already.
 				false === $wp_scripts->registered[ $handle ]->src || // If the source is empty.
 				in_array( $wp_scripts->registered[ $handle ]->src, $this->js_ignore_list ) || // If the file is ignored.
-<<<<<<< Updated upstream
 				strpos( Helper::get_home_url(), parse_url( $wp_scripts->registered[ $handle ]->src, PHP_URL_HOST ) ) === false // Skip all external sources.
-=======
-				strpos( home_url( '/' ), parse_url( $wp_scripts->registered[ $handle ]->src, PHP_URL_HOST ) ) === false // Skip all external sources.
->>>>>>> Stashed changes
 			) {
 				continue;
 			}
@@ -208,11 +204,7 @@ class Minifier {
 			// Check that everythign with minified file is ok.
 			if ( $is_minified_file_ok ) {
 				// Replace the script src with the minified version.
-<<<<<<< Updated upstream
 				$wp_scripts->registered[ $handle ]->src = str_replace( ABSPATH, Helper::get_home_url(), $filename );
-=======
-				$wp_scripts->registered[ $handle ]->src = str_replace( ABSPATH, home_url( '/' ), $filename );
->>>>>>> Stashed changes
 			}
 		}
 	}
@@ -227,17 +219,12 @@ class Minifier {
 	 * @return string           Original filepath.
 	 */
 	public function get_original_filepath( $original ) {
-<<<<<<< Updated upstream
 		$home_url = Helper::get_home_url();
-=======
-		$home_url = home_url( '/' );
->>>>>>> Stashed changes
 		// Get the home_url from database. Some plugins like qtranslate for example,
 		// modify the home_url, which result to wrong replacement with ABSPATH for resources loaded via link.
 		// Very ugly way to handle resources without protocol.
 		$result = parse_url( $home_url );
 
-<<<<<<< Updated upstream
 		$replace = $result['scheme'] . '://';
 
 		$new = preg_replace( '~^https?:\/\/|^\/\/~', $replace, $original );
@@ -247,17 +234,6 @@ class Minifier {
 			$original_filepath = str_replace( $home_url, ABSPATH, $new );
 		} else {
 			$original_filepath = untrailingslashit( ABSPATH ) . $new;
-=======
-		$replace = $result['scheme'] . '://' . $result['host'];
-
-		preg_replace( '~^https?:\/\/|^\/\/~', $replace, $original );
-
-		// Get the filepath to original file.
-		if ( strpos( $original, $home_url ) !== false ) {
-			$original_filepath = str_replace( $home_url, ABSPATH, $original );
-		} else {
-			$original_filepath = untrailingslashit( ABSPATH ) . $original;
->>>>>>> Stashed changes
 		}
 
 		return $original_filepath;
@@ -276,13 +252,8 @@ class Minifier {
 	 */
 	private function check_and_create_file( $new_file_path, $original_filepath ) {
 		// First remove the query strings.
-<<<<<<< Updated upstream
 		$original_filepath = Front_End_Optimization::remove_query_strings( preg_replace( '/\?.*/', '', $original_filepath ) );
 		$new_file_path     = Front_End_Optimization::remove_query_strings( preg_replace( '/\?.*/', '', $new_file_path ) );
-=======
-		$original_filepath = Front_End_Optimization::remove_query_strings( $original_filepath );
-		$new_file_path     = Front_End_Optimization::remove_query_strings( $new_file_path );
->>>>>>> Stashed changes
 
 		// Gets file modification time.
 		$original_file_timestamp = @filemtime( $original_filepath );
@@ -345,11 +316,7 @@ class Minifier {
 			if (
 				stripos( $wp_styles->registered[ $handle ]->src, '.min.css' ) !== false || // If the file is minified already.
 				false === $wp_styles->registered[ $handle ]->src || // If the source is empty.
-<<<<<<< Updated upstream
 				strpos( Helper::get_home_url(), parse_url( $wp_styles->registered[ $handle ]->src, PHP_URL_HOST ) ) === false // Skip all external sources.
-=======
-				strpos( home_url( '/' ), parse_url( $wp_styles->registered[ $handle ]->src, PHP_URL_HOST ) ) === false // Skip all external sources.
->>>>>>> Stashed changes
 			) {
 				continue;
 			}
@@ -365,11 +332,7 @@ class Minifier {
 			// Check that everythign with minified file is ok.
 			if ( $is_minified_file_ok ) {
 				// Replace the script src with the minified version.
-<<<<<<< Updated upstream
 				$wp_styles->registered[ $handle ]->src = str_replace( ABSPATH, Helper::get_home_url(), $filename );
-=======
-				$wp_styles->registered[ $handle ]->src = str_replace( ABSPATH, home_url( '/' ), $filename );
->>>>>>> Stashed changes
 			}
 		}
 	}

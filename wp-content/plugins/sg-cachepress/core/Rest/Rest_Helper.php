@@ -68,14 +68,10 @@ class Rest_Helper {
 	public function optimize_images() {
 		$this->images_optimizer->initialize();
 
-<<<<<<< Updated upstream
 		wp_send_json_success( array(
 			'image_optimization_status'  => 0,
 			'image_optimization_stopped' => 0,
 		) );
-=======
-		wp_send_json_success();
->>>>>>> Stashed changes
 	}
 
 	/**
@@ -340,7 +336,6 @@ class Rest_Helper {
 		// Get the php version.
 		$php_version = $this->validate_and_get_option_value( $request, 'php_version' );
 
-<<<<<<< Updated upstream
 		$php_versions_request = wp_remote_get( 'https://updates.sgvps.net/supported-versions.json' );
 		$php_versions = json_decode( wp_remote_retrieve_body( $php_versions_request ), true );
 
@@ -355,8 +350,6 @@ class Rest_Helper {
 			);
 		}
 
-=======
->>>>>>> Stashed changes
 		$this->htaccess->disable( 'php' );
 		$result = $this->htaccess->enable(
 			'php',
@@ -398,7 +391,6 @@ class Rest_Helper {
 	}
 
 	/**
-<<<<<<< Updated upstream
 	 * Stops images optimization
 	 *
 	 * @since  5.0.8
@@ -425,24 +417,16 @@ class Rest_Helper {
 	}
 
 	/**
-=======
->>>>>>> Stashed changes
 	 * Return the status of current compatibility check.
 	 *
 	 * @since  5.0.0
 	 */
 	public function check_image_optimizing_status() {
-<<<<<<< Updated upstream
 		$status = (int) get_option( 'siteground_optimizer_image_optimization_completed', 0 );
 		wp_send_json_success(
 			array(
 				'image_optimization_status'   => $status,
 				'has_images_for_optimization' => $this->options->check_for_unoptimized_images(),
-=======
-		wp_send_json_success(
-			array(
-				'image_optimization_status' => (int) get_option( 'siteground_optimizer_image_optimization_completed', 0 ),
->>>>>>> Stashed changes
 			)
 		);
 	}
@@ -508,7 +492,6 @@ class Rest_Helper {
 		wp_send_json_success();
 	}
 
-<<<<<<< Updated upstream
 	/**
 	 * Hide the rating box
 	 *
@@ -521,6 +504,4 @@ class Rest_Helper {
 		wp_send_json_success();
 	}
 
-=======
->>>>>>> Stashed changes
 }

@@ -181,11 +181,7 @@ class Minify_Html {
     protected $_placeholders = array();
     protected $_cssMinifier = null;
     protected $_jsMinifier = null;
-<<<<<<< Updated upstream
     protected $_keepComments = true;
-=======
-    protected $_keepComments = false;
->>>>>>> Stashed changes
 
     protected function _outsideTagCB($m)
     {

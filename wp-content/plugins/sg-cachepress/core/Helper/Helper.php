@@ -1,10 +1,7 @@
 <?php
 namespace SiteGround_Optimizer\Helper;
 
-<<<<<<< Updated upstream
 use SiteGround_Optimizer;
-=======
->>>>>>> Stashed changes
 use SiteGround_Optimizer\Admin\Admin;
 use SiteGround_Optimizer\Rest\Rest;
 use SiteGround_Optimizer\Supercacher\Supercacher;
@@ -31,11 +28,8 @@ class Helper {
 		add_action( 'plugins_loaded', array( $this, 'is_plugin_installed' ) );
 		add_action( 'init', array( $this, 'hide_warnings_in_rest_api' ) );
 
-<<<<<<< Updated upstream
 		set_error_handler( array( $this, 'error_handler' ) );
 
-=======
->>>>>>> Stashed changes
 		// Run the plugin functionality.
 		$this->run();
 	}
@@ -204,7 +198,6 @@ class Helper {
 		return 0 === strpos( $current_url['path'], $rest_url['path'], 0 );
 	}
 
-<<<<<<< Updated upstream
 	/**
 	 * Our custom error handler
 	 *
@@ -253,6 +246,4 @@ class Helper {
 
 		return trailingslashit( $url );
 	}
-=======
->>>>>>> Stashed changes
 }

@@ -77,11 +77,7 @@ class Install_5_0_0 extends Install {
 		}
 
 		if ( ! empty( $options['blacklist'] ) ) {
-<<<<<<< Updated upstream
 			$this->update_exclude_list_option( $options['blacklist'] );
-=======
-			$this->update_esclude_list_option( $options['blacklist'] );
->>>>>>> Stashed changes
 		}
 
 		// Enable ssl if the network option is enabled.
@@ -207,7 +203,6 @@ class Install_5_0_0 extends Install {
 	 *
 	 * @since  5.0.0
 	 *
-<<<<<<< Updated upstream
 	 * @param  string $exclude_list The exclude list.
 	 */
 	private function update_exclude_list_option( $exclude_list ) {
@@ -225,21 +220,6 @@ class Install_5_0_0 extends Install {
 		);
 
 		update_option( 'siteground_optimizer_excluded_urls', $new_exclude_list );
-=======
-	 * @param  string $esclude_list The exclude list.
-	 */
-	private function update_esclude_list_option( $esclude_list ) {
-		$esclude_list_array = explode( "\n", $esclude_list );
-
-		// Prepare the url parts for being used as regex.
-		$new_esclude_list = array_map(
-			function( $item ) {
-				return preg_replace( '~/$~', '/*', $item );
-			}, $esclude_list_array
-		);
-
-		update_option( 'siteground_optimizer_excluded_urls', $new_esclude_list );
->>>>>>> Stashed changes
 	}
 
 	/**

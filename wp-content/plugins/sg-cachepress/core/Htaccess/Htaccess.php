@@ -53,28 +53,17 @@ class Htaccess {
 		'browser-caching' => array(
 			'enabled'  => '/\#\s+Leverage Browser Caching by SG-Optimizer/si',
 			'disabled' => '/\#\s+Leverage Browser Caching by SG-Optimizer(.+?)\#\s+END\s+LBC\n/ims',
-<<<<<<< Updated upstream
 			'disable_all' => '/\#\s+Leverage Browser Caching by SG-Optimizer(.+?)\#\s+END\s+LBC\n|<IfModule mod_expires\.c>(.*?\n?)(<\/IfModule>\n\s)?<\/IfModule>/ims',
 		),
 		'ssl'           => array(
 			'enabled'     => '/HTTPS forced by SG-Optimizer/si',
 			'disabled'    => '/\#\s+HTTPS\s+forced\s+by\s+SG-Optimizer(.+?)\#\s+END\s+HTTPS(\n)?/ims',
 			'disable_all' => '/\#\s+HTTPS\s+forced\s+by\s+SG-Optimizer(.+?)\#\s+END\s+HTTPS(\n)?/ims',
-=======
-			'disable_all' => '/\#\s+Leverage Browser Caching by SG-Optimizer(.+?)\#\s+END\s+LBC\n|<IfModule mod_expires\.c>(.*?\n?)<\/IfModule>/ims',
-		),
-		'ssl'           => array(
-			'enabled'  => '/HTTPS forced by SG-Optimizer/si',
-			'disabled' => '/\#\s+HTTPS\s+forced\s+by\s+SG-Optimizer(.+?)\#\s+END\s+HTTPS\n/ims',
->>>>>>> Stashed changes
 		),
 		'php'           => array(
 			'enabled'  => '/START PHP VERSION CHANGE forced by SG Optimizer/si',
 			'disabled' => '/\#\s+START PHP VERSION CHANGE forced by SG Optimizer(.+?)\#\s+END PHP VERSION CHANGE\n|(AddHandler\s+application\/x-httpd-php.*?$)/ims',
-<<<<<<< Updated upstream
 			'disable_all' => '/\#\s+START PHP VERSION CHANGE forced by SG Optimizer(.+?)\#\s+END PHP VERSION CHANGE\n|(AddHandler\s+application\/x-httpd-php.*?$)/ims',
-=======
->>>>>>> Stashed changes
 		),
 	);
 
@@ -112,19 +101,8 @@ class Htaccess {
 	 * @since 5.0.0
 	 */
 	public function set_htaccess_path() {
-<<<<<<< Updated upstream
 		// Build the filepath.
 		$filepath = $this->wp_filesystem->abspath() . '.htaccess';
-=======
-		$slashed_home      = trailingslashit( get_option( 'home' ) );
-		$base              = parse_url( $slashed_home, PHP_URL_PATH );
-		$document_root_fix = str_replace( '\\', '/', realpath( $_SERVER['DOCUMENT_ROOT'] ) );
-		$abspath_fix       = str_replace( '\\', '/', ABSPATH );
-		$home_path         = 0 === strpos( $abspath_fix, $document_root_fix ) ? $document_root_fix . $base : get_home_path();
-
-		// Build the filepath.
-		$filepath = $home_path . '.htaccess';
->>>>>>> Stashed changes
 
 		// Create the htaccess if it doesn't exists.
 		if ( ! is_file( $filepath ) ) {
@@ -135,10 +113,6 @@ class Htaccess {
 		if ( ! $this->wp_filesystem->is_writable( $filepath ) ) {
 			return false;
 		}
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 		// Finally set the path.
 		$this->path = $filepath;
 	}

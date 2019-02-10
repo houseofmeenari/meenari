@@ -1,16 +1,25 @@
+/*
+Theme Name: Karo Child
+Theme URI: http://demo.themeftc.com/woo_karo/store/
+Template: karo
+Author: the ThemeFTC team
+Author URI: http://demo.themeftc.com/
+Description: Karo brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Tags: one-column,two-columns,right-sidebar,flexible-header,accessibility-ready,custom-colors,custom-header,custom-menu,editor-style,featured-images,post-formats,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.2.1531813703
+Updated: 2018-07-17 07:48:23
+*/
+
+
 
 /*
 Header Styles
 */
 
 .header-layout10 .admin-bar9 >.container {
-  justify-content: space-evenly;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 
-.header-layout10 .admin-bar9 {
-	padding: 60px 0 20px 0;
-}
 
 .header-layout10 .admin-bar9 .logo-wrapper.is-desktop {
   padding-right: 0px;
@@ -18,26 +27,27 @@ Header Styles
 
 .normal-logo {
   max-width: 70%;
-  margin-left: 8em;
+  margin-top: 3em;
 }
 
 .logo {
   text-align: center;
 }
 
-.social-header ul {
-  margin-left: 5em;
-  border: none;
+
+.ship_header {
+    margin-top: 40px;    
 }
 
-.meenari-header ul li {
-  border: none;
+.social-header ul li {
+  margin-top: 40px
 }
 
 .social-header ul li a {
   color: #999;
   font-size: 14px;
   line-height: 2;
+  border: solid 1px dotted;
 }
 
 .social-header ul li a i {
@@ -56,9 +66,7 @@ Header Styles
   color: #04b9ba;
 }
 
-.admin-bar9 > container {
 
-}
 
 
 /*
@@ -84,8 +92,6 @@ Breadcrumb Header height reduction.
 }
 
 
-
-
 /*
 Mega-Menu CSS
 */
@@ -105,17 +111,14 @@ Mega-Menu CSS
   justify-content: space-evenly;
   width: auto;
   flex-wrap: nowrap;
+  margin-left: 5em;
 }
 
-.header-content .header-sticky {
-  
-}
 
 /* removed 20px of margin to resolve onhover overlap issue. */
 .best-seller-v2 .woocommerce .ftc-slider .products .ftc-product.product:last-child {
     margin-top: -30px;
 }
-
 
 /* Wrapper */
 .vc_custom_1500261086465 .trending-product > .wpb_wrapper{
@@ -141,6 +144,8 @@ Mega-Menu CSS
   background: #fff;
 }
 
+
+/* instagram */
 .footer-top .insragram-bot.wpb_row {
   padding: 0 !important;
   width: 100%;
@@ -195,38 +200,47 @@ button, input[type="button"], input[type="submit"], input[name="add-to-cart"] {
   background-color: #04b9ba;
 }
 
-button, input[type="button"], input[type="submit"]:hover {
+/* button, input[type="button"], input[type="submit"]:hover {
   background-color: #fff;
   color: #04b9ba;
 }
 
+.deal-today{ 
+    see padding top, issue from original style sheet.
+}
+
+
 .deal-today > .cont {
+  min-height:400px;    
   max-width: 300px;
-  min-height:300px;
   background: #fff;
 }
 
+.deal-today img {
+  margin-bottom: 10em;
+}
 
 .today-deal .deal-slider {
-  padding: 0px 0 74px;
+  padding: 0px 0 80px;
+  
 }
 
 .deal-today h2 {
-  margin-top: -50px;
+  margin-top: -200px;
   padding-top: 0;
-  color: #54565b;
+  color: #4cadc9;
   margin-bottom: 1em;
 }
 
 .deal-today h4 {
-  color: #04b9ba;
+  color: #2cb9ba;
   margin-bottom: 1em;
 }
 
 .ftc-smooth-image .ftc-smooth {
   max-width: 75%;
 }
-
+ */
 
 /* Modal Window (signup) */
 .modal-wrapper.styled .modal {
@@ -244,6 +258,7 @@ button, input[type="button"], input[type="submit"]:hover {
   color: #dc7f98;
   padding-top: 1em;
 }
+
 
 
 /* Woocommerce Product Title for Thumbnails (shop) */
@@ -335,6 +350,11 @@ span.brand_name {
   font-size: 2em;
 }
 
+span.brand_buff {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
 .woocommer-message {
   border-top-color: #e06c9f;
 }
@@ -350,3 +370,91 @@ a.ftc-cart-tini.cart-item-canvas:before {
 .off-canvas-cart-title > .title {
   content: "Shopping Bag";
 }
+
+/* Cart Page: Totals Float: Right */
+.woocommerce-page .cart-collaterals .cart_totals {
+  float: right;
+}
+
+button.shop-btn {
+    background: #cdedfd;
+    opacity: 0.7;
+    font-weight: 500;
+    min-height: 4em;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+button.shop-btn:hover {
+    background: #e06c9f;
+}
+
+.deal-replace {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deal-replace button {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.woocommerce-store-notice {
+    background-color: #e06c9f;
+}
+
+span.coming {
+    padding: 5px;
+    background: #e06c9f;
+    color: #000;
+}
+
+.summary .entry-summary > .product_title .entry-title {
+    text-shadow: -2px 2px 4px rgba(84,86,91,0.2;
+    color: #64a6bd;
+}
+
+.me-tshadow1 { text-shadow: -2px 2px 4px rgba(84,86,91,0.2);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */ }
+
+
+
+/* button, input[type="button"], input[type="submit"], input[name="add-to-cart"] { background-color: #000; } */
+
+
+
+#primary .product h1 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+#primary .product .social-sharing {
+    position: relative;
+    margin-top: -525px;
+}
+
+
+
+/* 
+
+
+ */
+
+
+
+
+/* 
+
+span.woocommerce-Price-amount.amount { position: relative; padding-top: 20px; }
+
+.reset_variations { margin-top: 10px; left: 50px; }
+
+
+adjust the width to attack those colums not margin or padding...
+
+.woocommerce div.product div.images img { width: 90% !important; } 
+*/
+
+/*
+#64a6bd;
+#e06c9f;
+*/

@@ -89,3 +89,14 @@ function woo_archive_custom_cart_button_icon() {
         <?php
   }
   add_action( 'woocommerce_register_form_start', 'wooc_extra_register_fields' );
+  
+  /* Change description title to product details */
+  add_filter( 'woocommerce_product_tabs', 'woo_customize_tabs', 100, 1 );
+function woo_customize_tabs( $tabs ) {
+
+    unset($tabs['reviews']);    // Remove the reviews tab
+
+    $tabs['description']['title'] = __( 'Product Details:' ); // Rename the description tab
+
+    return $tabs;
+}

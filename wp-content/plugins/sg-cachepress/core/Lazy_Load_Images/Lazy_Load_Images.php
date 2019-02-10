@@ -94,7 +94,6 @@ class Lazy_Load_Images {
 	public function filter_html( $content ) {
 
 		// Bail if it's feed or if the content is empty.
-<<<<<<< Updated upstream
 		if (
 			is_feed() ||
 			empty( $content ) ||
@@ -103,30 +102,19 @@ class Lazy_Load_Images {
 			method_exists( 'FLBuilderModel', 'is_builder_enabled' ) ||
 			wp_is_mobile()
 		) {
-=======
-		if ( is_feed() || empty( $content ) ) {
->>>>>>> Stashed changes
 			return $content;
 		}
 
 		// Search patterns.
 		$patterns = array(
-<<<<<<< Updated upstream
 			'/(?<!noscript\>)((<img.*?src=["|\'].*?["|\']).*?(\/?>))/i',
-=======
-			'/(?<!noscript\>)(<img([\w\W]+?)>)/i',
->>>>>>> Stashed changes
 			'/(?<!noscript\>)(<img.*?)(src)=["|\']((?!data).*?)["|\']/i',
 			'/(?<!noscript\>)(<img.*?)((srcset)=["|\'](.*?)["|\'])/i',
 		);
 
 		// Replacements.
 		$replacements = array(
-<<<<<<< Updated upstream
 			'$1<noscript>$2$3</noscript>',
-=======
-			'$1<noscript>$1</noscript>',
->>>>>>> Stashed changes
 			'$1src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-$2="$3"',
 			'$1data-$3="$4"',
 		);
